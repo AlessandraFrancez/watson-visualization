@@ -1,0 +1,4525 @@
+{
+  "name": "ADCC - Accenture",
+  "intents": [
+    {
+      "intent": "Agradecimento",
+      "examples": [
+        {
+          "text": "valeu"
+        },
+        {
+          "text": "obrigado"
+        },
+        {
+          "text": "obg"
+        },
+        {
+          "text": "vlw"
+        },
+        {
+          "text": "obrigada"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "xingamentos",
+      "examples": [
+        {
+          "text": "vai se fuder"
+        },
+        {
+          "text": "fdp"
+        },
+        {
+          "text": "Carai"
+        },
+        {
+          "text": "cu"
+        },
+        {
+          "text": "Foda-se"
+        },
+        {
+          "text": "xupa!"
+        },
+        {
+          "text": "Porque é idiota"
+        },
+        {
+          "text": "babaca"
+        },
+        {
+          "text": "Chupa"
+        },
+        {
+          "text": "Pqp"
+        },
+        {
+          "text": "Tomar no rabo"
+        },
+        {
+          "text": "Burra"
+        },
+        {
+          "text": "Quer pau?"
+        },
+        {
+          "text": "Rola"
+        },
+        {
+          "text": "caralho"
+        },
+        {
+          "text": "filho da puta"
+        },
+        {
+          "text": "seu merda"
+        },
+        {
+          "text": "vai tomar no cu"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "General_Greetings",
+      "examples": [
+        {
+          "text": "Como estão as coisas aí?"
+        },
+        {
+          "text": "Boa tarde , você está ai?"
+        },
+        {
+          "text": "Obrigado só pensei de dar um oi como seu nome apareceu"
+        },
+        {
+          "text": "Meu querido amigo que prazer é falar com você se você pudesse imaginar"
+        },
+        {
+          "text": "Eu tenho algumas perguntas, por favor, deixe-me falar primeiro"
+        },
+        {
+          "text": "Eu não pedi para falar com um agente. Eu estava falando olá/oi para você"
+        },
+        {
+          "text": "Eu gostaria de conversar com o Watson."
+        },
+        {
+          "text": "Bom dia, como você está?"
+        },
+        {
+          "text": "como voce está!?"
+        },
+        {
+          "text": "Ei, você está aí?"
+        },
+        {
+          "text": "Olá, pode me ajudar?"
+        }
+      ],
+      "description": "Cumprimente o robô."
+    },
+    {
+      "intent": "General_Ending",
+      "examples": [
+        {
+          "text": "Me tire daqui."
+        },
+        {
+          "text": "Eu estou indo agora. Tenha um bom dia. Tchau"
+        },
+        {
+          "text": "Estou indo embora."
+        },
+        {
+          "text": "Estou cansado de digitar agora. Obrigado e adeus"
+        },
+        {
+          "text": "Desculpe ter ocupado tanto do seu tempo. Eu sei que estamos os dois ocupados e acho que tenho que dizer tchau por ora.."
+        },
+        {
+          "text": "Com licença, tenho que ir agora"
+        },
+        {
+          "text": "Vejo você mais tarde."
+        },
+        {
+          "text": "Ainda não terminou?"
+        },
+        {
+          "text": "Volto mais tarde."
+        },
+        {
+          "text": "Tudo bem, eu tenho tudo o que eu precisava"
+        },
+        {
+          "text": "Falo contigo depois. Tchau"
+        },
+        {
+          "text": "Muito obrigado pelo seu tempo. Me desculpe, mas eu tenho que ir. Até logo!"
+        },
+        {
+          "text": "Obrigada, tchau!"
+        },
+        {
+          "text": "Eu preciso correr porque acabei de notar que estou atrasado para o meu próximo compromisso"
+        },
+        {
+          "text": "Obrigado pela sua ajuda, mas ainda estou confuso…tchau"
+        },
+        {
+          "text": "Obrigado por responder todas as minhas perguntas. Tchau"
+        },
+        {
+          "text": "Ok, isso é tudo que eu preciso para agora."
+        },
+        {
+          "text": "pare esta sessão agora..Tchau"
+        },
+        {
+          "text": "Quero encerrar a conversa, obrigado."
+        },
+        {
+          "text": "Te desejo o melhor de sorte..Tchau"
+        },
+        {
+          "text": "Vamos dar uma pausa e tentar novamente mais tarde..Tchau"
+        },
+        {
+          "text": "Você foi de pouca ajuda, por isso não quero falar com você mais, tchau"
+        },
+        {
+          "text": "Vou sair agora. Tchau"
+        }
+      ],
+      "description": "Termine a conversa."
+    },
+    {
+      "intent": "General_Human_or_Bot",
+      "examples": [
+        {
+          "text": "Estou conversando com uma pessoa ou com uma IA?"
+        },
+        {
+          "text": "Com quem estou falando?"
+        },
+        {
+          "text": "Como você pode provar que é humano?"
+        },
+        {
+          "text": "Como eu posso conversar com o Watson?"
+        },
+        {
+          "text": "Você é um humano ou um robô?"
+        },
+        {
+          "text": "Você é um homem ou uma mulher?"
+        },
+        {
+          "text": "Você é real, pelo menos?"
+        },
+        {
+          "text": "Estou conversando com um robô?"
+        },
+        {
+          "text": "Estou conversando com um humano?"
+        },
+        {
+          "text": "Diga-me, você é humano ou não?"
+        },
+        {
+          "text": "Você é real?"
+        },
+        {
+          "text": "Você pode ser honesto comigo?"
+        },
+        {
+          "text": "Você é uma pessoa real ou um robô?"
+        },
+        {
+          "text": "Você é humano?"
+        },
+        {
+          "text": "Quem é você, realmente?"
+        },
+        {
+          "text": "Quem é você?"
+        },
+        {
+          "text": "Isso é um computador?"
+        },
+        {
+          "text": "Eu estou conversando com o Watson?"
+        }
+      ],
+      "description": "Pergunte se está falando com um humano ou um robô."
+    },
+    {
+      "intent": "entrega-solicitar",
+      "examples": [
+        {
+          "text": "quero solicitar uma entrega"
+        },
+        {
+          "text": "solicitar entrega"
+        },
+        {
+          "text": "entrega em minha casa"
+        }
+      ],
+      "description": "gostaria de contratar o servico"
+    },
+    {
+      "intent": "Telco_Network_Complaints",
+      "examples": [
+        {
+          "text": "Estou tendo um problema com o meu telefone. Não consigo fazer ou receber chamadas! Eu preciso de ajuda!"
+        },
+        {
+          "text": "Você pode me ajudar com problemas técnicos no meu telefone, ou você apenas fornece informações sobre planos de preços, etc.?"
+        },
+        {
+          "text": "Eu estive dirigido muito recentemente e foi praticamente impossível usar o serviço em algumas áreas. Você poderia me fornecer uma lista de locais / áreas com pouca ou nenhuma recepção?"
+        },
+        {
+          "text": "Meu telefone novo não pode receber nenhuma mensagem de texto ou e-mail enquanto eu estou em uma chamada? Eu costumava ser capaz de fazer isso com meu telefone antigo"
+        },
+        {
+          "text": "Estou tendo problema de conectividade da minha casa para conectar-me à Internet"
+        },
+        {
+          "text": "Você pode me dizer por que nunca tenho sinal no meu telefone quando estou no trabalho, mas não tenho problema em nenhum outro lugar?"
+        },
+        {
+          "text": "Por que a sinal da operadora em São Paulo está tão ruim?"
+        },
+        {
+          "text": "O serviço ainda está indisponível na zona de ramblas, estou tendo problemas com o meu streaming de vídeo, a qualidade está extremamente ruim."
+        },
+        {
+          "text": "O meu telefone não recebe cobertura quando eu dirijo para a casa da minha mãe. Se eu lhe der o endereço dela, poderia me dizer o que posso fazer para melhorar minha recepção lá?"
+        },
+        {
+          "text": "Oi. Tenho um sinal forte, mas não consigo fazer ou receber chamadas. Você pode me ajudar a ver como resolver esse problema?"
+        },
+        {
+          "text": "Não tenho nenhum sinal dentro da minha casa. Existe uma maneira de corrigir isso?"
+        },
+        {
+          "text": "Não consigo receber chamadas no meu telefone, mas posso fazer chamadas para qualquer pessoa em qualquer lugar."
+        },
+        {
+          "text": "Meu telefone não tem sinal no meu porão."
+        },
+        {
+          "text": "Meu telefone não faz nem recebe mais nenhuma chamada."
+        },
+        {
+          "text": "Meu telefone mostra barras de sinal, mas eu não posso fazer nenhuma ligação."
+        },
+        {
+          "text": "Há certas partes na minha cidade onde eu não tenho sinal. Pode me dizer qual poderia ser o motivo?"
+        },
+        {
+          "text": "Foi-me prometido uma cobertura total na minha cidade quando me inscrevi no ano passado. 12 meses depois, metade da minha cidade não tem conexão. Quando isso será consertado?"
+        },
+        {
+          "text": "Existe alguma interrupção no sinal? estou sem cobertura."
+        },
+        {
+          "text": "Eu não sei porque, mas o meu telefone não funciona em casa."
+        },
+        {
+          "text": "Eu não recebo sinal quando estou no Edifício 32."
+        },
+        {
+          "text": "Ei, quando estou no meu jardim eu não consigo um sinal, pode explicar isto por favor?"
+        },
+        {
+          "text": "A rede está horrível! Alguma manutenção acontecendo?"
+        },
+        {
+          "text": "Algo parece estar seriamente errado, já que nem posso fazer nem receber chamadas independentemente de onde estou."
+        }
+      ],
+      "description": "Informe-se sobre problemas de rede."
+    },
+    {
+      "intent": "Telco_Deactivate_Prepaid_Plan",
+      "examples": [
+        {
+          "text": "Preciso de alguém que possa me ensinar a cancelar meu telefone pré-pago."
+        },
+        {
+          "text": "É possível desativar o meu dispositivo de telefone pré-pago?"
+        },
+        {
+          "text": "Posso cancelar meu plano pré-pago a qualquer momento?"
+        },
+        {
+          "text": "Por favor desative o dispositivo pré-pago."
+        },
+        {
+          "text": "O que eu preciso fazer para que o serviço do telefone pré-pago seja desligado?"
+        },
+        {
+          "text": "Oi Tom. Recebi o meu novo dispositivo. Gostaria de saber se você pode me ajudar a desativá-lo?"
+        },
+        {
+          "text": "Eu preciso de ajuda para desativar meu celular pré-pago."
+        },
+        {
+          "text": "Eu não sei como desativar meu telefone pré-pago, você pode me dizer?"
+        },
+        {
+          "text": "Eu não quero mais usar meu telefone pré-pago atual."
+        },
+        {
+          "text": "Estou tendo problemas ao desativar o meu dispositivo pré-pago. Existe um FAQ disponível para me explicar isso passo a passo?"
+        },
+        {
+          "text": "Como posso desativar o serviço no meu dispositivo pré-pago que é novo?"
+        },
+        {
+          "text": "Como posso cancelar minha linha de telefone pré-pago?"
+        },
+        {
+          "text": "Como cancelo meu serviço de telefone pré-pago?"
+        },
+        {
+          "text": "A desativação online está disponível para o meu telefone pré-pago?"
+        },
+        {
+          "text": "Tenho problemas com a minha linha pré-paga. Existe um fórum disponível com passos/etapas que eu poderia seguir?"
+        },
+        {
+          "text": "Quero cancelar o pagamento do meu telefone pré-pago."
+        },
+        {
+          "text": "Quanto tempo leva para que um dispositivo pré-pago pare de funcionar?"
+        },
+        {
+          "text": "Quais os meios de cancelamento do meu plano pré-pago?"
+        }
+      ],
+      "description": "Desative um plano pré-pago."
+    },
+    {
+      "intent": "General_Security_Assurance",
+      "examples": [
+        {
+          "text": "Eu preciso de uma garantia."
+        },
+        {
+          "text": "Nossa comunicação é privada?"
+        },
+        {
+          "text": "Onde posso encontrar seu certificado de segurança?"
+        },
+        {
+          "text": "O que você faz pela segurança de seus clientes?"
+        },
+        {
+          "text": "Os dados dessa conversa são armazenados com segurança?"
+        },
+        {
+          "text": "Este é um site de bate-papo confiável?"
+        },
+        {
+          "text": "Que medidas de segurança são usados para assegurar que esta conversa é segura?"
+        },
+        {
+          "text": "Usuário quer garantia de que qualquer informação que ele forneça no bate-papo está protegida e segura."
+        },
+        {
+          "text": "Você está a salvo de hackers/pirata informáticos?"
+        },
+        {
+          "text": "Você pode garantir a privacidade desta conversa?"
+        },
+        {
+          "text": "Vocês contratam alguma empresa para auxiliar na proteção de dados?"
+        },
+        {
+          "text": "Minha informação de pagamento pessoal é mantida de forma segura?"
+        },
+        {
+          "text": "Você me ajudaria a manter minhas informações seguras?"
+        },
+        {
+          "text": "Existe um documento de perguntas frequentes para este chat-bot?"
+        },
+        {
+          "text": "O meu dispositivo está protegido?"
+        },
+        {
+          "text": "Como posso obter informações de perda?"
+        },
+        {
+          "text": "Gostaríamos de apresentar uma solicitação de seguro para o aquecedor de fumaça"
+        },
+        {
+          "text": "As informações do cartão de crédito são criptografadas e mantidas seguras?"
+        },
+        {
+          "text": "Como eu posso saber que essa conversa não é um golpe?"
+        },
+        {
+          "text": "Como impedir o acesso não autorizado à minha conta?"
+        },
+        {
+          "text": "Esse chat é oficial?"
+        },
+        {
+          "text": "Posso passar informações confidenciais aqui?"
+        },
+        {
+          "text": "Eu entrei infomação do meu cartão em seu site para pagar minha conta - você pode me certificar que esses detalhes são salvos de forma segura?"
+        }
+      ],
+      "description": "Exprima preocupações sobre a segurança do robô."
+    },
+    {
+      "intent": "General_Positive_Feedback",
+      "examples": [
+        {
+          "text": "Muito bom, obrigado."
+        },
+        {
+          "text": "Genial! Isso é exatamente o que eu pensei."
+        },
+        {
+          "text": "Espero trabalhar com você novamente."
+        },
+        {
+          "text": "Estou impressionado com você."
+        },
+        {
+          "text": "Estou pegando a manha disso."
+        },
+        {
+          "text": "Eu gostei do que você fez aí."
+        },
+        {
+          "text": "Gostei muito do seu trabalho."
+        },
+        {
+          "text": "Incrível como você é bom!"
+        },
+        {
+          "text": "Isso é divertido."
+        },
+        {
+          "text": "Isso é muito legal."
+        },
+        {
+          "text": "Muito inteligente."
+        },
+        {
+          "text": "É muito louco o que um robô pode fazer."
+        },
+        {
+          "text": "Muito obrigado."
+        },
+        {
+          "text": "Ótimo!"
+        },
+        {
+          "text": "Você é adorável."
+        },
+        {
+          "text": "Você é demais."
+        },
+        {
+          "text": "Você detonou."
+        },
+        {
+          "text": "Você é inteligente."
+        },
+        {
+          "text": "Você é legal."
+        },
+        {
+          "text": "Você me deu exatamente o que eu precisava."
+        },
+        {
+          "text": "Você é o cara."
+        }
+      ],
+      "description": "Exprima sentimento positivo ou gratidão."
+    },
+    {
+      "intent": "diaDaSemana",
+      "examples": [
+        {
+          "text": "que dia é amanha?"
+        },
+        {
+          "text": "qual primeiro dia de janeiro?"
+        },
+        {
+          "text": "qual ultima dia do ano?"
+        },
+        {
+          "text": "domingo cai qual dia?"
+        },
+        {
+          "text": "domingo cai que dia?"
+        },
+        {
+          "text": "Que dia é hoje?"
+        },
+        {
+          "text": "qual ultima dia do mes de janeiro"
+        },
+        {
+          "text": "qual último dia desse mes?"
+        },
+        {
+          "text": "qual primeiro dia do ano?"
+        }
+      ],
+      "description": "Entender hoje amanha e semana que vem"
+    },
+    {
+      "intent": "inteligencia-artificial",
+      "examples": [
+        {
+          "text": "o que é inteligência artificial (IA)"
+        },
+        {
+          "text": "me explica o que é inteligência artificial (IA)."
+        },
+        {
+          "text": "quero saber mais sobre inteligencia artificial"
+        },
+        {
+          "text": "me fala sobre inteligência artificial (IA)"
+        },
+        {
+          "text": "voce e uma inteligencia artificial"
+        },
+        {
+          "text": "quero saber sobre IA"
+        }
+      ],
+      "description": "Falar sobre inteligência artificial"
+    },
+    {
+      "intent": "Telco_Coverage_Area_Inquiry",
+      "examples": [
+        {
+          "text": "Estou planejando uma viagem ao Havaí e estava pensando se eu vou ter sinal lá."
+        },
+        {
+          "text": "Estou indo para uma viagem ao extremo norte da Ilha de Vancouver e gostaria de verificar se há serviço de celular nessa área. Você pode verificar o quanto longe do norte eu posso esperar para receber a recepção."
+        },
+        {
+          "text": "Como posso atualizar o mapa de cobertura de seu serviço? O mapa mostra que eu deveria ter total cobertura 4G, mas a realidade diz o contrário."
+        },
+        {
+          "text": "Bom dia, eu me pergunto se você gostaria de saber quais são as áreas de cobertura da companhia telefônica?"
+        },
+        {
+          "text": "Olá, estava imaginando se essa queda de rede já foi consertada? Já existe uma cobertura LTE nesta área?"
+        },
+        {
+          "text": "Você tem recepção nas áreas rurais do estado?"
+        },
+        {
+          "text": "Sim, minha conexão está muito lenta, e as minhas mensagens estão levando muito tempo para serem enviadas. Onde fica a melhor cobertura?"
+        },
+        {
+          "text": "Quanto da área total no meu país é coberta pela recepção?"
+        },
+        {
+          "text": "Qual o tamanho da área de cobertura do meu novo telefone, e há lugares perto de mim onde eu não vou conseguir acessar o serviço?"
+        },
+        {
+          "text": "Qual é a área de cobertura e confiabilidade de recepção?"
+        },
+        {
+          "text": "Poderia por favor compartilhar alguma informação sobre a cobertura de rede na área?"
+        },
+        {
+          "text": "Onde estão as áreas perto de mim que eu poderia ter boa recepção?"
+        },
+        {
+          "text": "Oi, já que você está aqui, está havendo algum problema com a cobertura na área de SP? Desde ontem o meu sinal normal de 4 barras ficou em 0, está bem em outros lugares."
+        },
+        {
+          "text": "Isso vai funcionar em todos os lugares?"
+        },
+        {
+          "text": "Existe uma maneira de obter informações precisas sobre a área de cobertura e a qualidade da chamada esperada em cada área respectiva?"
+        },
+        {
+          "text": "Existem áreas sem recepção das quais que eu deveria estar ciente?"
+        },
+        {
+          "text": "Eu vou estar viajando e estou certo se minha empresa fornece cobertura de telefone na minha área de viagens. Poderia me dar informaçÃµes sobre onde o serviço e recepção estará disponível?"
+        },
+        {
+          "text": "Eu estou pagando pela cobertura da LTE. Eu não posso usar isso? Espero que isso seja refletido como um desconto na minha conta até que eu possa usar o que eu pago."
+        },
+        {
+          "text": "Eu estou me mudando para um lugar onde não há cobertura de celulares, quais são minhas opções?"
+        }
+      ],
+      "description": "Informe-se sobre a cobertura da rede."
+    },
+    {
+      "intent": "DiferencaEntreMLeDL",
+      "examples": [
+        {
+          "text": "diferença entre ML e DL"
+        },
+        {
+          "text": "diferença entre machine learning e deep learning"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Intencao-Interjeicao",
+      "examples": [
+        {
+          "text": "Caramba!"
+        },
+        {
+          "text": "carai"
+        },
+        {
+          "text": "Nossa!"
+        },
+        {
+          "text": "porra"
+        }
+      ],
+      "description": "Nossa! Porra! Caramba! Que isso!?"
+    },
+    {
+      "intent": "Telco_Activate_Roaming",
+      "examples": [
+        {
+          "text": "Como faço para ativar roaming para que eu possa usar dados quando estiver na Flórida?"
+        },
+        {
+          "text": "Como posso ativar o roaming internacional, por favor?"
+        },
+        {
+          "text": "Você pode por favor me dizer como posso adicionar roaming ao meu plano atual?"
+        },
+        {
+          "text": "Se eu ativar roaming agora, já posso utilizar?"
+        },
+        {
+          "text": "Posso alterar minhas configurações para usar o roaming no meu celular pré-pago no exterior?"
+        },
+        {
+          "text": "Posso incluir roaming no meu plano por duas semanas?"
+        },
+        {
+          "text": "Posso ativar roaming diretamente no meu aparelho?"
+        },
+        {
+          "text": "Por favor adicione o roaming internacional na minha conta."
+        },
+        {
+          "text": "O usuário deseja ativar o roaming internacional."
+        },
+        {
+          "text": "O serviço de roaming é ativado automaticamente ou eu preciso ativá-lo manualmente?"
+        },
+        {
+          "text": "Okey, mas vou viajar para Bolonha e quero ter certeza de que meu telefone vai funcionar."
+        },
+        {
+          "text": "Meu aparelho já vem com roaming de dados ativado?"
+        },
+        {
+          "text": "Ligue a função de roaming internacional."
+        },
+        {
+          "text": "Eu vou à Florença neste fim de semana e quero ativar roaming."
+        },
+        {
+          "text": "Eu vou sair de férias em breve. Eu preciso adicionar chamadas internacionais para o meu plano."
+        },
+        {
+          "text": "Como posso começar a usar o meu telefone no exterior?"
+        },
+        {
+          "text": "Estou viajando para o exterior e quero adicionar um plano de dados."
+        },
+        {
+          "text": "Eu gostaria de saber sobre os encargos de roaming internacional e como ativar isto."
+        },
+        {
+          "text": "Eu já tenho um sim da operadora, eu quero adicionar serviço de roaming internacional."
+        },
+        {
+          "text": "Como ativar meu roaming pra usar na Argentina?"
+        }
+      ],
+      "description": "Ative roaming internacional."
+    },
+    {
+      "intent": "Telco_Network_Unlock",
+      "examples": [
+        {
+          "text": "Posso usar meu aparelho para outras operadoras?"
+        },
+        {
+          "text": "Quero desbloquear o meu novo telefone. Como faço isso?"
+        },
+        {
+          "text": "Quero meu desbloqueio no meu dispositivo atual"
+        },
+        {
+          "text": "Você pode explicar como desbloquear um gflex por favor?"
+        },
+        {
+          "text": "O cliente deseja ter o seu serviço desbloqueado"
+        },
+        {
+          "text": "Acabei de receber um novo celular. Tentei desbloquear meu novo celular, mas falhou. Você pode me ajudar a desbloquear meu novo celular?"
+        },
+        {
+          "text": "Após quanto tempo do pagamento da fatura atrasada, meu chip é desbloqueado?"
+        },
+        {
+          "text": "Como faço para desbloquear minha conta no celular pré-pago?"
+        },
+        {
+          "text": "Como posso desbloquear meu novo aparelho? Tenho que usar o mesmo cartão SIM do meu telefone antigo?"
+        },
+        {
+          "text": "Como posso desbloquear meu novo telefone pré-pago para que meu plano de serviço funcione?"
+        },
+        {
+          "text": "Como você desbloqueia o seu novo aparelho? Você usa o mesmo SIM que no seu aparelho anterior?"
+        },
+        {
+          "text": "Eu não sei como desbloquear o meu novo dispositivo. Pode me dizer como?"
+        },
+        {
+          "text": "Eu preciso do meu PUK para o meu celular, fiz uma tentativa on-line, mas a operadora não aceitou meu nome, data de nascimento e endereço de e-mail válidos."
+        },
+        {
+          "text": "Eu tenho um cartão SIM no meu aparelho e eu gostaria de desbloqueá-lo."
+        },
+        {
+          "text": "Meu novo telefone não está desbloqueado ainda. Quem pode me ajudar com este problema?"
+        },
+        {
+          "text": "Olá preciso de um PIN de Desbloqueio de Rede, por favor"
+        },
+        {
+          "text": "O que eu preciso fazer para desbloquear meu novo aparelho?"
+        },
+        {
+          "text": "Por favor me ajude desbloquear meu novo telefone no meu plano de serviço."
+        },
+        {
+          "text": "Porque não é o meu novo telefone desbloqueado ainda?"
+        },
+        {
+          "text": "Posso por favor ter as instruções para desbloquear meu dispositivo?"
+        },
+        {
+          "text": "Precio ir em uma loja fisica para fazer desbloqueio do meu aparelho celular?"
+        }
+      ],
+      "description": "Desbloqueie um dispositivo de uma rede de serviço específica."
+    },
+    {
+      "intent": "Telco_Troubleshooting",
+      "examples": [
+        {
+          "text": "Qual é a razão do meu celular sempre ter uma taxa de acesso à Internet lenta?"
+        },
+        {
+          "text": "Oi, a velocidade de dados no meu dispositivo ainda está muito abaixo dos níveis anunciados. Isso já está acontecendo por dois meses agora. Como serei compensado por isso? Estou pensando em mudar de novo. Isto é uma quebra de contrato."
+        },
+        {
+          "text": "Meu aparelho nao esta funcionando direito."
+        },
+        {
+          "text": "Eu tenho um tablet novo que está reiniciando continuamente, como eu resolvo isso?/ como posso resolver isso? / como faço para resolver isso?"
+        },
+        {
+          "text": "Eu não estou muito satisfeito com a minha conexão com a internet. Por que a velocidade é tão lenta?"
+        },
+        {
+          "text": "Estou tendo um problema em contato com o suporte. Eu estava em espera por 45 minutos e finalmente desisti. Se eu deixar um número, é possível receber uma chamada em retorno?"
+        },
+        {
+          "text": "Como desligar meus dados automaticamente quando o WI-FI está disponível?"
+        },
+        {
+          "text": "A minha internet não funciona no meu celular"
+        },
+        {
+          "text": "Meu novo telefone não está ativado ainda. Quem pode me ajudar com este problema?"
+        },
+        {
+          "text": "Meu roteador esta com uma luz vermelha"
+        },
+        {
+          "text": "Meu wifi está lento e caindo o tempo todo"
+        },
+        {
+          "text": "Meu WiFi não é acessível em toda a minha casa. A casa é pequena e o alcance do dispositivo deveria ser suficiente."
+        },
+        {
+          "text": "Minha bateria esgotou rapidamente"
+        },
+        {
+          "text": "Minhas mensagens de texto não estão funcionando. Não posso receber mensagens de texto, mas posso enviá-las. Pode me ajudar com isso?"
+        },
+        {
+          "text": "Nenhum dos meus dispositivos está funcionando. Acho que o roteador não está funcionando. Pode me acompanhar através de uma reinicialização."
+        },
+        {
+          "text": "Não consigo acessar a web no meu telefone, não tenho certeza se isso precisar de algumas configurações."
+        },
+        {
+          "text": "Não consigo iniciar o bluetooth para emparelhar com o fone de ouvido, o que devo fazer?"
+        },
+        {
+          "text": "Problema com suporte"
+        },
+        {
+          "text": "Você poderia me ajudar em como mudar o toque do meu telefone?"
+        }
+      ],
+      "description": "Solicite ajuda para um problema de dispositivo ou serviço."
+    },
+    {
+      "intent": "Telco_Change_Price_Plan",
+      "examples": [
+        {
+          "text": "Como trocar de plano, o plano ilimitado é muito caro"
+        },
+        {
+          "text": "Desde que não uso meus dados muito, posso mudar para um de plano apenas 1 GB de dados."
+        },
+        {
+          "text": "E se eu diminuir meu plano de dados para 5Gb e desejar alterá-lo de volta para 15GB minutos depois. Posso pegar meu plano atual de volta?"
+        },
+        {
+          "text": "Eu gostaria de comprar um plano somente"
+        },
+        {
+          "text": "Eu preciso mudar o meu plano para um que tenha chamadas locais ilimitadas. Diga-me quais planos funcionariam."
+        },
+        {
+          "text": "Eu preciso que o meu plano de preços seja mais baixo do que está atualmente, mas não quero perder os recursos que eu uso muito. Por favor, me ajude."
+        },
+        {
+          "text": "Eu quero aumentar o número de mensagens no meu plano de serviço"
+        },
+        {
+          "text": "Gostaria de alterar meu plano de preços. Você pode listar opções de planos de preços que têm conversas e textos ilimitados?"
+        },
+        {
+          "text": "Oi! Recebi um telefonema no outro dia sobre meu contrato terminar e ofereceram-me um novo acordo. Eu entrei em uma loja e eles me falaram sobre um negócio melhor e eu gostaria de mudar de novo."
+        },
+        {
+          "text": "O que vai custar menos ficar no meu plano atual ou mudar para o novo?"
+        },
+        {
+          "text": "Posso mudar o meu plano de tarifa para algo que funcione melhor para mim?"
+        },
+        {
+          "text": "Quanto custará aumentar a velocidade da minha internet para 1GB?"
+        },
+        {
+          "text": "Quanto custaria adicionar dados ilimitados ao meu plano atual?"
+        },
+        {
+          "text": "Quero informações sobre como alterar meu plano para uma nova oferta"
+        },
+        {
+          "text": "Tenho usado o meu celular menos desde o ano passado, então eu gostaria de ter melhores planos de preços que atendam às minhas necessidades."
+        },
+        {
+          "text": "Teria sido muito difícil para me alertarem que uma mudança de planos me faria perder a minha atualização? Isso é imperdoável."
+        },
+        {
+          "text": "Como trocar um plano de conversação direta para um telefone desta operadora gratuitamente?"
+        },
+        {
+          "text": "Eu pedi o plano errado. Você poderia mudar isso para o plano de R$ 50?"
+        },
+        {
+          "text": "Como podemos fazer uma mudança no plano de preços em nossos dispositivos?"
+        }
+      ],
+      "description": "Pergunte sobre mudança um plano."
+    },
+    {
+      "intent": "Telco_Recharge_SIM",
+      "examples": [
+        {
+          "text": "Quando é que o crédito expira para o meu serviço pré-pago?"
+        },
+        {
+          "text": "Adicionar uma quantidade de minutos ao meu pré-pago."
+        },
+        {
+          "text": "Como adiciono minutos?"
+        },
+        {
+          "text": "Como posso fazer mais chamadas com o meu cartão recarregável?"
+        },
+        {
+          "text": "Como posso recarregar meu dispositivo quando estou na Áustria?"
+        },
+        {
+          "text": "Eu preciso recarregar o dongle que pago mensalmente. Os dados foram consumidos."
+        },
+        {
+          "text": "Eu quero adicionar mais dados na minha conta para os dias restantes, por favor"
+        },
+        {
+          "text": "Eu quero colocar tempo de conversação no meu telefone."
+        },
+        {
+          "text": "Me ajude com a inclusão de minutos no pré-pago."
+        },
+        {
+          "text": "Oi, estou mesmo querendo uma recarga no meu celular. Você pode por favor ajudar, diz que eu não tenho crédito."
+        },
+        {
+          "text": "Por favor, eu preciso de uma maneira fácil de recarregar."
+        },
+        {
+          "text": "Qual é o procedimento para incluir minutos no meu pré-pago?"
+        },
+        {
+          "text": "Quanto devo recarregar para chegar ao final do mês?"
+        },
+        {
+          "text": "Quero adicionar minutos à minha subscrição."
+        },
+        {
+          "text": "Quero sua ajuda para colocar o dinheiro no meu cartão SIM."
+        },
+        {
+          "text": "Se eu recarregar R$ 50, o que eu ganho?"
+        },
+        {
+          "text": "Você pode me ajudar a aumentar meus minutos no meu telefone?"
+        },
+        {
+          "text": "Você pode me dizer como posso adicionar minutos ao meu telefone pré-pago?"
+        }
+      ],
+      "description": "Adicione um valor a um plano pré-pago ou cartão SIM."
+    },
+    {
+      "intent": "Telco_Device_Upgrade_Eligibility",
+      "examples": [
+        {
+          "text": "Atualizar para um novo telefone"
+        },
+        {
+          "text": "Oi, como posso saber se eu sou elegível para um upgrade para o meu dispositivo?"
+        },
+        {
+          "text": "Indique quanto tempo eu aguardo para mudar meu telefone para um modelo mais novo"
+        },
+        {
+          "text": "Estou bastante cansado do meu telefone existente e gostaria de saber quando eu vou ser elegível para sua atualização?"
+        },
+        {
+          "text": "Estou apenas olhando para ver quando eu posso mudar de telefone, obrigado pela sua ajuda."
+        },
+        {
+          "text": "Estive com esta empresa por 12 meses, posso obter um novo aparelho por um bom preço?"
+        },
+        {
+          "text": "Eu quero obter o telefone preto em vez do telefone prateado que eu pedi"
+        },
+        {
+          "text": "Já posso fazer o upgrade do meu telefone? Se não, quanto tempo vai demorar até que eu possa?"
+        },
+        {
+          "text": "Olá, eu quero fazer um upgrade de telefone. Isto está disponível para mim?"
+        },
+        {
+          "text": "Por favor me diga quando eu vou ser elegível para minha próxima atualização do dispositivo."
+        },
+        {
+          "text": "Posso trocar meu equipamento para o mais recente e o melhor disponível?"
+        },
+        {
+          "text": "Qual é o primeiro mês quando eu posso atualizar um dos meus dispositivos"
+        },
+        {
+          "text": "Quando dentro do contrato sou elegivel para atualizar meu atual aparelho?"
+        },
+        {
+          "text": "Quando minha conta vai ser elegível para um dispositivo atualizado"
+        },
+        {
+          "text": "Sabe quando serei elegível de ter um upgrade de dispositivo?"
+        },
+        {
+          "text": "Será que meu telefone seja elegível para atualizar este ano em um preço com desconto?"
+        },
+        {
+          "text": "Você pode por favor me dizer se eu sou elegível para atualizar meu celular de graça? Caso contrário, em que data serei elegível para fazê-lo?"
+        },
+        {
+          "text": "Você pode verificar se posso fazer um upgrade?"
+        },
+        {
+          "text": "Como mudar de telefone?"
+        },
+        {
+          "text": "É possível trocar meu celular?"
+        },
+        {
+          "text": "Eu não sou elegível para uma atualização gratuita, mas eu gostaria de comprar um novo celular. Por favor, me mostre o preço do mais moderno."
+        },
+        {
+          "text": "Eu quero obter um telefone diferente."
+        },
+        {
+          "text": "Me qualifico para uma atualização de telefone neste momento?"
+        },
+        {
+          "text": "Meu telefone está velho. Posso pegar uma atualização gratuita."
+        }
+      ],
+      "description": "Informe-se sobre quando, se, ou como um dispositivo pode ser atualizado."
+    },
+    {
+      "intent": "Intencao-Negativa",
+      "examples": [
+        {
+          "text": "nunca"
+        },
+        {
+          "text": "Não quero ir no UOL!"
+        },
+        {
+          "text": "jamais"
+        },
+        {
+          "text": "nenhuma"
+        },
+        {
+          "text": "n"
+        },
+        {
+          "text": "Nao"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Humano-Robo",
+      "examples": [
+        {
+          "text": "você é de verdade?"
+        },
+        {
+          "text": "estou falando com um robô?"
+        },
+        {
+          "text": "quero falar com um humano"
+        },
+        {
+          "text": "estou falando com um Humano?"
+        },
+        {
+          "text": "Você é Humano?"
+        },
+        {
+          "text": "Você é uma máquina?"
+        },
+        {
+          "text": "você é um robô?"
+        }
+      ],
+      "description": "O que sou?"
+    },
+    {
+      "intent": "Telco_Return_Device",
+      "examples": [
+        {
+          "text": "Você pode me dizer como posso retornar meu telefone atual para uma atualização?"
+        },
+        {
+          "text": "Qual é o processo para retornar o produto para uma loja?"
+        },
+        {
+          "text": "Qual é a política de devolução para esse telefone"
+        },
+        {
+          "text": "Preciso saber como devolver meu celular"
+        },
+        {
+          "text": "Por que sua loja não aceita o meu retorno?"
+        },
+        {
+          "text": "Meu telefone está com defeito e eu quero saber se eu posso devolver."
+        },
+        {
+          "text": "Meu dispositivo parou de funcionar. Posso devolver e obter um novo dispositivo?"
+        },
+        {
+          "text": "Eu preciso devolver os controles para a empresa?"
+        },
+        {
+          "text": "Eu pedi o telefone errado on-line e preciso devolvê-lo. Como faço para obter uma etiqueta de retorno e obter o telefone certo?"
+        },
+        {
+          "text": "Eu comprei meu dispositivo a alguns meses atras. Há alguma maneira de devolvê-lo? Estou insatisfeito com este aparelho."
+        },
+        {
+          "text": "Eu acabei de perder o prazo de retorno por um dia, há algo que eu possa fazer sobre isso?"
+        },
+        {
+          "text": "Verificar o status da devolução"
+        },
+        {
+          "text": "Tom, quais são as políticas para retornar um dispositivo que foi usado por um tempo?"
+        },
+        {
+          "text": "Como posso devolver meu dispositivo de troca para o outra promoção? Não recebi nenhuma embalagem de retorno."
+        },
+        {
+          "text": "Se eu atualizar o meu plano/dispositivo e decidir que não gosto do telefone, posso devolver o telefone?"
+        },
+        {
+          "text": "Quanto tempo eu tenho para devolver o telefone, se eu mudar de ideia?"
+        },
+        {
+          "text": "Quando é o último dia que posso devolver meu telefone?"
+        },
+        {
+          "text": "Como faço para retornar o meu dispositivo para sua empresa?"
+        },
+        {
+          "text": "Você tem informações para me dar sobre como retornar um telefone que eu acabei de comprar?"
+        },
+        {
+          "text": "Quero perguntar sobre o cancelamento do pedido de um dispositivo móvel"
+        },
+        {
+          "text": "O equipamento deve ser devolvido à empresa quando você cancela o meu serviço?"
+        }
+      ],
+      "description": "Informe-se sobre como retornar dispositivos indesejados."
+    },
+    {
+      "intent": "Telco_Swap_Device",
+      "examples": [
+        {
+          "text": "Eu gostaria de solicitar uma troca de SIM para então ativar meu novo telefone."
+        },
+        {
+          "text": "Trocar meu aparelho por um novo é possivel?"
+        },
+        {
+          "text": "Quero trocar o meu antigo telefone por um crédito"
+        },
+        {
+          "text": "Quem eu contato para mudar meu contrato do meu velho telefone para o meu novo telefone?"
+        },
+        {
+          "text": "Preciso mudar para um novo dispositivo e preciso que você o ative depois de desativar o meu atual."
+        },
+        {
+          "text": "Olá eu acabei de atualizar o meu telefone e quero que minha filha use o meu antigo celular até ela poder atualizar."
+        },
+        {
+          "text": "Oi, eu comprei um celular novo e gostaria de trocar a minha conta do meu telefone velho para o meu telefone novo, por favor"
+        },
+        {
+          "text": "Eu tenho um dispositivo antigo e novo e quero mudar meu serviço do meu antigo para o meu novo"
+        },
+        {
+          "text": "Eu quero mudar meu serviço para um novo dispositivo, mas mantendo os mesmos dados pessoais. Você pode me dizer como fazê-lo?"
+        },
+        {
+          "text": "Eu gostaria de transferir o serviço em meu novo telefone por favor"
+        },
+        {
+          "text": "Disseram que eu preciso trocar meu celular atual. Eles vão me pagar a taxa de rescisão mas preciso comprar o telefone ao preço total...?"
+        },
+        {
+          "text": "Como salvar contatos do telefone antigo para o telefone novo?"
+        },
+        {
+          "text": "Como posso adicionar meus serviços de telefone do meu dispositivo móvel antigo para o novo?"
+        },
+        {
+          "text": "Como fazer a troca de um aparelho com vocês?"
+        },
+        {
+          "text": "Como faço para transferir o serviço de um dispositivo antigo para um novo?"
+        }
+      ],
+      "description": "Altere o dispositivo."
+    },
+    {
+      "intent": "chatbot",
+      "examples": [
+        {
+          "text": "O que é chatbot?"
+        }
+      ],
+      "description": "O que é chatbot?"
+    },
+    {
+      "intent": "Telco_Add_Insurance",
+      "examples": [
+        {
+          "text": "Vocês oferecem seguros para celulares? Eu tenho uma conta comercial com vários dispositivos e gostaria de encontrar uma cobertura razoável."
+        },
+        {
+          "text": "Você pode me enviar uma nova cópia da minha conta?"
+        },
+        {
+          "text": "Quero saber se posso comprar o seguro de telefone."
+        },
+        {
+          "text": "Quero atualizar o meu plano com o seguro de telefone."
+        },
+        {
+          "text": "Quero adicionar proteção do dispositivo à minha conta"
+        },
+        {
+          "text": "Esta operadora pode adicionar o seguro no celular após 30 dias?"
+        },
+        {
+          "text": "Eu acabei de gastar R$ 800 neste celular novo - como faço para ter certeza de que não tenho que pagar para consertar isso mais tarde?"
+        },
+        {
+          "text": "Eu gostaria de adquirir um seguro para celular. Pode me ajudar escolher um plano de seguro que seria adequado para minhas necessidades?"
+        },
+        {
+          "text": "Eu gostaria de segurar meu telefone. Pode me ajudar com isso?"
+        },
+        {
+          "text": "Qual é o procedimento para incluir um seguro para o meu telefone?"
+        },
+        {
+          "text": "Eu não tenho seguro para o meu telefone, como posso fazer/obter isso?"
+        },
+        {
+          "text": "Existe a possibilidade de ter o meu dispositivo de telefone de alguma forma assegurado?"
+        },
+        {
+          "text": "Fui assaltado, preciso acionar seguro."
+        },
+        {
+          "text": "Oi! Este telefone tem seguro? Posso fazer o seguro para este telefone eu mesmo?"
+        },
+        {
+          "text": "Oi, eu preciso de um seguro para o meu telefone, quais são as opções disponíveis para o meu plano?"
+        },
+        {
+          "text": "Pode por favor me informar a cobertura e custo de um seguro para o meu telefone?"
+        },
+        {
+          "text": "Preciso apresentar algum documento para utilizar o seguro do meu aparelho?"
+        },
+        {
+          "text": "Em caso de sinistro em quanto tempo posso pegar outro aparelho?"
+        }
+      ],
+      "description": "Adicione cobertura de seguro à uma conta."
+    },
+    {
+      "intent": "General_Jokes",
+      "examples": [
+        {
+          "text": "Me conte mais uma."
+        },
+        {
+          "text": "Eu não sou tedioso, você é."
+        },
+        {
+          "text": "Estou entediado."
+        },
+        {
+          "text": "Estou entediado. Entretenha-me!"
+        },
+        {
+          "text": "Conte outra!"
+        },
+        {
+          "text": "Está se divertindo?"
+        },
+        {
+          "text": "Você tem senso de humor?"
+        },
+        {
+          "text": "Você tem quaisquer jogos?"
+        },
+        {
+          "text": "Você sabe piadas?"
+        },
+        {
+          "text": "Você pode me contar uma piada?"
+        },
+        {
+          "text": "Você pode cantar para mim?"
+        },
+        {
+          "text": "Você me entediou."
+        },
+        {
+          "text": "Você gosta de contar piadas?"
+        },
+        {
+          "text": "Vamos nos divertir!"
+        },
+        {
+          "text": "Surpreenda-me com algo hilariante."
+        },
+        {
+          "text": "Qual a sua piada favorita?"
+        },
+        {
+          "text": "Porque você é enfadonho?"
+        },
+        {
+          "text": "O que você faz para se divertir?"
+        }
+      ],
+      "description": "Peça uma piada."
+    },
+    {
+      "intent": "Intencao-Questionar",
+      "examples": [
+        {
+          "text": "para qual dia"
+        },
+        {
+          "text": "o que é uma ave?"
+        },
+        {
+          "text": "Não perguntei isso"
+        },
+        {
+          "text": "tem outras?"
+        },
+        {
+          "text": "quais dias tem?"
+        },
+        {
+          "text": "quando?"
+        },
+        {
+          "text": "para quando?"
+        },
+        {
+          "text": "para que dia?"
+        },
+        {
+          "text": "pq?"
+        },
+        {
+          "text": "porque?"
+        }
+      ],
+      "description": "pq?"
+    },
+    {
+      "intent": "bolsaValores",
+      "examples": [
+        {
+          "text": "bolsa de valores"
+        },
+        {
+          "text": "Como está a bolsa de valores?"
+        },
+        {
+          "text": "Qual o índice da bolsa hoje?"
+        }
+      ],
+      "description": "Como está a bolsa de valores?"
+    },
+    {
+      "intent": "General_Agent_Capabilities",
+      "examples": [
+        {
+          "text": "Quais são as diferentes coisas com que você pode me ajudar, e para que eu preciso contatar um representante humano ..."
+        },
+        {
+          "text": "Qual ajuda você pode fornecer?"
+        },
+        {
+          "text": "Quero saber com que você pode me ajudar./Quero saber com que coisas você pode me ajudar."
+        },
+        {
+          "text": "Tom pode listar quais áreas você pode fornecer ajuda?"
+        },
+        {
+          "text": "Você fornece ajuda geral? Eu não sei o que eu posso te perguntar"
+        },
+        {
+          "text": "Você pode resolver um caso jurídico se eu lhe der os fatos?"
+        },
+        {
+          "text": "Você pode responder uma pergunta frequente sobre o agente?"
+        },
+        {
+          "text": "Oi Tom. Que tipo de coisas você pode fazer por mim?"
+        },
+        {
+          "text": "Posso verificar quais opções estão disponíveis com o agente?"
+        },
+        {
+          "text": "Preciso de ajuda geral sobre o agente virtual"
+        },
+        {
+          "text": "O que você pode fazer para me ajudar"
+        },
+        {
+          "text": "Eu estou tendo alguns problemas e gostaria de alguma informação sobre como obter alguma ajuda"
+        },
+        {
+          "text": "Continue esperando por favor"
+        },
+        {
+          "text": "Quem pode me ajudar a realizar meu pedido."
+        },
+        {
+          "text": "Ajude-me a ler o medidor e registrar o uso"
+        },
+        {
+          "text": "O que você mais gosta de fazer?"
+        },
+        {
+          "text": "Eu gostaria de saber como você pode me ajudar"
+        },
+        {
+          "text": "Eu preciso de ajuda, alguém pode me ajudar?"
+        },
+        {
+          "text": "Oi Tom, quais tipos de coisas você pode me ajudar com o telefone?"
+        }
+      ],
+      "description": "Solicite recursos de robô."
+    },
+    {
+      "intent": "maquinasSubstituiraoHumanos",
+      "examples": [
+        {
+          "text": "As máquinas substituirão os seres humanos?"
+        }
+      ],
+      "description": "As máquinas substituirão os seres humanos?"
+    },
+    {
+      "intent": "Telco_Activate_Prepaid_Plan",
+      "examples": [
+        {
+          "text": "Tenho um sim card pré-pago e preciso ativar"
+        },
+        {
+          "text": "Você sabe quanto tempo levará para ativar o meu telefone pré-pago?"
+        },
+        {
+          "text": "Vou ficar sem sinal durante a troca para o plano pré-pago?"
+        },
+        {
+          "text": "Quando meu produto solicitado será ativado?"
+        },
+        {
+          "text": "Alguma opção pré-paga?"
+        },
+        {
+          "text": "Seria possível alguém para me acompanhar através das etapas para ativar meu dispositivo pré-pago?"
+        },
+        {
+          "text": "Recebi o dispositivo pré-pago e quero saber como ativar"
+        },
+        {
+          "text": "Quanto preciso pagar para ativar meu plano pré-pago?"
+        },
+        {
+          "text": "Posso ter ajuda na ativação de meu novo telefone pré-pago por favor?"
+        },
+        {
+          "text": "Por favor, você pode me ajudar a ativar o meu novo telefone pré-pago e fazê-lo funcionar corretamente."
+        },
+        {
+          "text": "O que eu preciso fazer para ativar meu novo telefone pré-pago e remover a restrição?"
+        },
+        {
+          "text": "Onde eu ativo o meu dispositivo pré-pago?"
+        },
+        {
+          "text": "Existe uma loja local que poderia ativar o meu telefone pré-pago?"
+        },
+        {
+          "text": "Eu não posso recarregar porque diz que meu sim está desativado , meu sim pode ser ativado?"
+        },
+        {
+          "text": "Estou tentando ativar o meu novo telefone com o serviço pré-pago."
+        },
+        {
+          "text": "Estou tendo problemas ativando meu dispositivo pré-pago. Existe um FAQ disponível para me explicar isso passo a passo?"
+        },
+        {
+          "text": "Estou mudando de empresa e queria encontrar um plano pré-pago que funciona para mim, o que você tem?"
+        },
+        {
+          "text": "Comprei outro SIM e quero ativar como pre-pago."
+        },
+        {
+          "text": "Como faço para ativar o novo dispositivo pré-pago que acabei de receber?"
+        },
+        {
+          "text": "Como faço para ativar e adicionar à minha conta um telefone pré-pago que comprei em outra loja?"
+        },
+        {
+          "text": "Alguém poderia me mostrar como ativar meu novo dispositivo pré-pago?"
+        }
+      ],
+      "description": "Ative um plano pré-pago."
+    },
+    {
+      "intent": "CotacaoMoeda",
+      "examples": [
+        {
+          "text": "Qual a cotação do Real?"
+        },
+        {
+          "text": "Qual a cotação do dólar?"
+        },
+        {
+          "text": "Dolar hoje"
+        },
+        {
+          "text": "Qual o valor do dólar?"
+        }
+      ],
+      "description": "Qual a cotação do dólar?"
+    },
+    {
+      "intent": "Saudacao",
+      "examples": [
+        {
+          "text": "tudo bem"
+        },
+        {
+          "text": "Bom dia"
+        },
+        {
+          "text": "ola"
+        },
+        {
+          "text": "Como vai"
+        },
+        {
+          "text": "oi"
+        },
+        {
+          "text": "Prazer em conhecê-lo"
+        },
+        {
+          "text": "boa noite"
+        },
+        {
+          "text": "boa tarde"
+        }
+      ],
+      "description": "saudacao"
+    },
+    {
+      "intent": "inteligencia-artificial-vai-acabar-com-empregos",
+      "examples": [
+        {
+          "text": "inteligencia artificial vai acabar com empregos"
+        },
+        {
+          "text": "inteligencia artificial vai substituir o homem"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Telco_International_Rate_Plan_Inquiry",
+      "examples": [
+        {
+          "text": "Como posso fazer uma ligação internacional do meu país de origem?"
+        },
+        {
+          "text": "Você pode me dizer a tarifa atual de cobrança da Europa Continental para o Reino Unido do meu telefone?"
+        },
+        {
+          "text": "Você pode me informar sobre cobranças internacionais adicionais?"
+        },
+        {
+          "text": "Como atualizo minha conta para incluir chamadas internacionais?"
+        },
+        {
+          "text": "Como faço chamadas telefônicas para outros países?"
+        },
+        {
+          "text": "As tarifas internacionais são calculadas por minutos ou por chamadas individuais?"
+        },
+        {
+          "text": "As chamadas internacionais estão incluídas no meu plano?"
+        },
+        {
+          "text": "Quero informações sobre fazer ligações internacionais de casa"
+        },
+        {
+          "text": "Eu quero fazer chamadas internacionais. Preciso de um plano para chamar um país europeu. Você pode me dar algumas tarifas?"
+        },
+        {
+          "text": "Gostaria de verificar todas as taxas para cobertura internacional"
+        },
+        {
+          "text": "Há alguma limitação quanto aos países no exterior que eu posso chamar e acessar do meu país de origem?"
+        },
+        {
+          "text": "Logo precisarei fazer várias ligações internacionais do meu país. Onde posso encontrar, ou como posso ter uma lista completa com todos os preços possíveis indicados?"
+        },
+        {
+          "text": "Olá. Eu nunca fiz uma chamada internacional no meu telefone e gostaria de saber sobre o que acontece se eu fizer?"
+        },
+        {
+          "text": "Onde consulto os valores aplicados para ligacoes internacionais?"
+        },
+        {
+          "text": "Onde posso localizar informações detalhadas sobre o seu plano de taxa internacional?"
+        },
+        {
+          "text": "Posso fazer chamadas internacionais diretamente do meu celular?"
+        },
+        {
+          "text": "Preciso de informações sobre plano de chamada internacional, o que você sugere?"
+        },
+        {
+          "text": "Quais são os custos de fazer ligações internacionais do meu país?"
+        },
+        {
+          "text": "Quanto custa enviar uma mensagem de texto internacionalmente?"
+        },
+        {
+          "text": "Quanto me custará por minuto para chamar minha tia na Austrália?"
+        },
+        {
+          "text": "Que planos estão disponíveis para chamada e dados Internacional?"
+        }
+      ],
+      "description": "Informe-se sobre os planos internacionais."
+    },
+    {
+      "intent": "DEEPLEARNING",
+      "examples": [
+        {
+          "text": "o que é DEEP LEARNING"
+        },
+        {
+          "text": "o que é aprendizado estruturado"
+        },
+        {
+          "text": "me explica o que é aprendizado estruturado"
+        },
+        {
+          "text": "conte-me sobre aprendizado estruturado"
+        },
+        {
+          "text": "o que é DP?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "General_Connect_to_Agent",
+      "examples": [
+        {
+          "text": "Por favor me conectar a um agente humano que é fluente em inglês."
+        },
+        {
+          "text": "Ok deixe-me tentar outra vez. Eu estou tentando falar com um ser humano para resolver diversos problemas faz tempão e dado que o meu telefone bloqueado eu preciso falar diretamente com alguém que entende a conta e pode consertar isso"
+        },
+        {
+          "text": "Oi Tom. Eu queria saber se você poderia me direconionar/conectar para um agente humano para que eu possa completar meu pedido?"
+        },
+        {
+          "text": "Isso é muito frustrante, eu quero falar com uma pessoa de verdade real."
+        },
+        {
+          "text": "Existe alguém com quem eu posso realmente falar de verdade?"
+        },
+        {
+          "text": "Eu vou falar com um agente/ Eu vou falar com um agente de suporte."
+        },
+        {
+          "text": "Eu quero contatar um agente/Eu quero entrar em contato com um agente"
+        },
+        {
+          "text": "Eu preciso falar com um representante. Como posso fazer isso?"
+        },
+        {
+          "text": "Preciso contatar a um atendente"
+        },
+        {
+          "text": "Pode me provar que é um representante?"
+        },
+        {
+          "text": "Você pode me enviar um número de telefone para falar com um representante de vendas?"
+        },
+        {
+          "text": "Você pode por favor me transferir para alguém que possa me ajudar, eu mandei um e-mail para você e você não leu direito e simplesmente saiu."
+        },
+        {
+          "text": "Eu quero tentar o seu agente virtual."
+        },
+        {
+          "text": "Quero falar com alguém de outra área."
+        },
+        {
+          "text": "Você pode me conectar com uma pessoa real?"
+        },
+        {
+          "text": "redirecionar para atendente"
+        },
+        {
+          "text": "Bem agora eu gostaria de falar com um agente sobre algumas cobranças"
+        },
+        {
+          "text": "Posso ter informações de contato para falar com um agente ao vivo."
+        },
+        {
+          "text": "Posso falar com um agente sobre minha conta"
+        },
+        {
+          "text": "Por favor, você pode entrar em contato comigo com um agente humano?"
+        },
+        {
+          "text": "Por favor pode me conectar com a Vaishali K? Minha conversação foi desconectada"
+        }
+      ],
+      "description": "Solicite um agente humano."
+    },
+    {
+      "intent": "Telco_Port_In",
+      "examples": [
+        {
+          "text": "Olá, eu gostaria de saber como manter meu número antigo do meu provedor de serviços anterior na minha nova conta com vocês, por favor"
+        },
+        {
+          "text": "A portabilidade possui alguma cobranca?"
+        },
+        {
+          "text": "Como faço para me certificar que posso manter meu número de telefone quando troco de operadora?"
+        },
+        {
+          "text": "Consulta sobre portabilidade"
+        },
+        {
+          "text": "Essa não é a instrução que me deram. Me mandaram um novo chip e me mandaram transferir meu velho número da outra operadora"
+        },
+        {
+          "text": "Eu disse que recebi um novo sim e gostaria de compartilhar o código de pac do meu número atual com você."
+        },
+        {
+          "text": "Eu estou com outra empresa agora, mas quero mudar para vocês. É possível manter meu número de telefone atual?"
+        },
+        {
+          "text": "Eu gostaria de perguntar sobre como manter o meu número existente quando eu trocar."
+        },
+        {
+          "text": "Eu pedi para manter meu número antigo enviado isso on-line na noite de sexta-feira, logo após a meia-noite ainda meu número não foi transferido"
+        },
+        {
+          "text": "Eu preciso de ajuda para manter o meu número antigo enquanto mudo de fornecedores."
+        },
+        {
+          "text": "Eu tenho um plano com outra empresa. Posso manter meu número?"
+        },
+        {
+          "text": "Oi Tom, como posso transferir meu número de telefone da antiga operadora para a minha nova linha com vocês?"
+        },
+        {
+          "text": "Olá. É possível mudar o meu provedor para outro enquanto mantenho este número?"
+        },
+        {
+          "text": "Olá, quero saber se posso ficar com meu telefone se eu decidir mudar de provedor."
+        },
+        {
+          "text": "Por favor me avise se eu vou poder ficar com o meu número de telefone atual quando mudar de fornecedores"
+        },
+        {
+          "text": "Posso alterar o provedor de serviços sem perder o meu número de telefone?"
+        },
+        {
+          "text": "Posso levar meu telefone comigo se eu mudar para uma nova empresa."
+        },
+        {
+          "text": "Quero mudar os provedores de serviço, ainda posso manter meu mesmo número de telefone?"
+        },
+        {
+          "text": "Se eu mudar um proveder, o que acontecerá com o meu número atual?"
+        },
+        {
+          "text": "Posso transferir meus dados quando troco telefones?"
+        },
+        {
+          "text": "Quando vou poder usar meu novo dispositivo, com o meu número de telefone comum?"
+        }
+      ],
+      "description": "Transfira um número de telefone de outra operadora."
+    },
+    {
+      "intent": "machineLearning",
+      "examples": [
+        {
+          "text": "o que é aprendizado de máquina"
+        },
+        {
+          "text": "voce sabe me dizer o que significa aprendizado de máquina"
+        },
+        {
+          "text": "o que machine learning"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Telco_Outros",
+      "examples": [
+        {
+          "text": "defeito"
+        },
+        {
+          "text": "problema"
+        },
+        {
+          "text": "problemas na minha linha"
+        },
+        {
+          "text": "telefone quebrado"
+        },
+        {
+          "text": "meu telefone está com defeito"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Intencao-Positiva",
+      "examples": [
+        {
+          "text": "vamos la"
+        },
+        {
+          "text": "s"
+        },
+        {
+          "text": "sim"
+        },
+        {
+          "text": "ok"
+        },
+        {
+          "text": "vamos tentar"
+        },
+        {
+          "text": "show"
+        },
+        {
+          "text": "uhum"
+        },
+        {
+          "text": "próximo domingo à tarde"
+        },
+        {
+          "text": "isso ai"
+        },
+        {
+          "text": "blz"
+        },
+        {
+          "text": "certo"
+        },
+        {
+          "text": "aeeee"
+        },
+        {
+          "text": "positivo"
+        },
+        {
+          "text": "gostaria"
+        },
+        {
+          "text": "aham"
+        },
+        {
+          "text": "quero"
+        },
+        {
+          "text": "quero sim"
+        },
+        {
+          "text": "yep"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Agendamento-Consulta",
+      "examples": [
+        {
+          "text": "tem visita"
+        },
+        {
+          "text": "para quando está agendado?"
+        },
+        {
+          "text": "qual meu agendamento"
+        },
+        {
+          "text": "quando o técnico vem?"
+        },
+        {
+          "text": "qual data?"
+        },
+        {
+          "text": "consultar agendamento"
+        },
+        {
+          "text": "conferir agendamento"
+        },
+        {
+          "text": "me fale sobre meu agendamento"
+        },
+        {
+          "text": "me lembre sobre o agendamento"
+        },
+        {
+          "text": "informacao"
+        },
+        {
+          "text": "quero falar sobre a visita"
+        },
+        {
+          "text": "sobre a visita"
+        },
+        {
+          "text": "visita tecnica"
+        },
+        {
+          "text": "data do agendamento"
+        },
+        {
+          "text": "que horas é a visita"
+        },
+        {
+          "text": "saber mais"
+        },
+        {
+          "text": "Qual data do meu agendamento?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Telco_Roaming_Inquiry",
+      "examples": [
+        {
+          "text": "Eu gostaria de saber se seria possível para mim usar meu novo dispositivo pré-pago, enquanto na França ou não."
+        },
+        {
+          "text": "O servico de roaming é cobrado na fatura, em real?"
+        },
+        {
+          "text": "Olá quero verificar meu status de roaming internacional"
+        },
+        {
+          "text": "Meu telefone pode rastrear quando uso internet no exterior?"
+        },
+        {
+          "text": "Chamadas feitas enquanto estou viajando no exterior estão incluídas no meu plano?"
+        },
+        {
+          "text": "Eu tenho algumas perguntas sobre roaming."
+        },
+        {
+          "text": "Eu quero saber as tarifas de roaming europeu"
+        },
+        {
+          "text": "Eu preciso viajar para Vancouver, quanto custa o roaming por 1 mês?"
+        },
+        {
+          "text": "Qual o preço para ativar o roaming?"
+        },
+        {
+          "text": "Vou ter que pagar taxas de roaming quando usar o meu telefone no exterior?"
+        },
+        {
+          "text": "Vou incorrer taxas extras usando meu telefone pré-pago em outro país?"
+        },
+        {
+          "text": "Você pode me dizer se o roaming internacional está configurado no meu telefone?"
+        },
+        {
+          "text": "Vai haver taxas adicionais móveis se eu usar o meu telefone no exterior?"
+        },
+        {
+          "text": "Se eu estiver nos EUA, consigo ligar na boa pro Brasil com o roaming?"
+        },
+        {
+          "text": "Que tipo de planos de roaming são oferecidos pelo meu provedor de serviços? Gostaria de um plano econômico que me permita roaming enquanto viajo."
+        },
+        {
+          "text": "Quanto vai custar para usar a quantidade de dados que normalmente uso, em Londres?"
+        },
+        {
+          "text": "Qual é o custo do custo de usar o meu telefone pré-pago no exterior seria?"
+        },
+        {
+          "text": "Qual é a taxa de roaming para a Internet em Dubai?"
+        },
+        {
+          "text": "Posso usar o meu telefone quando estou no exterior de férias e quais serão as tarifas?"
+        },
+        {
+          "text": "Posso saber quais são as operadoras de telefone para roaming aceitáveis pela sua empresa em Londres?"
+        }
+      ],
+      "description": "Informe-se sobre o uso de um telefone fora do país de origem."
+    },
+    {
+      "intent": "previsaoTempo",
+      "examples": [
+        {
+          "text": "Qual a revisão do tempo?"
+        }
+      ],
+      "description": "Qual a revisão do tempo?"
+    },
+    {
+      "intent": "Suruba",
+      "examples": [
+        {
+          "text": "quero fazer sexo"
+        },
+        {
+          "text": "contratar umas putas"
+        },
+        {
+          "text": "quero transar"
+        },
+        {
+          "text": "Gostaria de agendar uma suruba"
+        },
+        {
+          "text": "sexo em grupo"
+        },
+        {
+          "text": "quero agendar uma orgia"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Telco_Activate_Device",
+      "examples": [
+        {
+          "text": "Registrar o meu chip e o telefone novo"
+        },
+        {
+          "text": "Como posso ativar meu novo telefone por favor?"
+        },
+        {
+          "text": "Como posso registrar um cartão SIM?"
+        },
+        {
+          "text": "Tenho um novo telefone, mas estou sem serviço. Removi o cartão SIM e coloquei-o de volta. Carreguei o telefone e não o usei durante a noite."
+        },
+        {
+          "text": "Comprei um celular através da Amazon, como posso adicioná-lo à minha conta?"
+        },
+        {
+          "text": "Eu fiz uma atualização e eu quero registrar um novo cartão SIM."
+        },
+        {
+          "text": "Eu quero reconectar meu telefone, os dois telefones na conta na verdade"
+        },
+        {
+          "text": "Eu solicitei uma troca de SIM, mas ainda não está completo, então não consigo fazer or receber chamadas"
+        },
+        {
+          "text": "Favor realizar a ativação do meu SIM card"
+        },
+        {
+          "text": "Gostaria que meu celular seja ativado hoje"
+        },
+        {
+          "text": "Olá, eu tenho um novo dispositivo, e um cartão SIM de vocês com contrato mensal que obtive em uma loja, e já passaram 24 horas e o SIM ainda não está funcionando, e a loka está dizendo que tudo está ativado da parte deles"
+        },
+        {
+          "text": "Porque o meu dispositivo ainda está pendente para ativar"
+        },
+        {
+          "text": "Posso ativar meu novo telefone na loja local da minha cidade?"
+        },
+        {
+          "text": "Preciso ir até uma loja para ativar meu novo SIM?"
+        },
+        {
+          "text": "Qual é o custo por ativação de um dispositivo?"
+        },
+        {
+          "text": "Quanto é a taxa de ativação de um novo cartão SIM da minha operadora?"
+        },
+        {
+          "text": "Quanto tempo vai demorar para o meu telefone ativar?"
+        },
+        {
+          "text": "Quero ativar o meu novo aparelho telefonico por favor"
+        },
+        {
+          "text": "Recentemente, comprei um novo dispositivo, mas não tenho ideia de como eu deveria ativá-lo. Você pode me ajudar?"
+        }
+      ],
+      "description": "Ative um dispositivo."
+    },
+    {
+      "intent": "General_About_You",
+      "examples": [
+        {
+          "text": "Estou procurando uma solução para melhorar o meu engajamento com o cliente usando este agente virtual."
+        },
+        {
+          "text": "Como você se descreve?"
+        },
+        {
+          "text": "Você tem um nome?"
+        },
+        {
+          "text": "Qual a sua idade?"
+        },
+        {
+          "text": "Quais são os seus apelidos?"
+        },
+        {
+          "text": "Há quanto tempo você tem desempenhado essa função?"
+        },
+        {
+          "text": "Quero entender como você trabalha."
+        },
+        {
+          "text": "Quero o documento de requisitos do sistema para esse agente."
+        },
+        {
+          "text": "Eu preciso da informação sobre o preço do Watson."
+        },
+        {
+          "text": "Este agente foi construído usando processamento de linguagem natural?"
+        },
+        {
+          "text": "Você fala Francês?"
+        },
+        {
+          "text": "Você sabe quem você é?"
+        },
+        {
+          "text": "Me diga três coisas sobre você."
+        },
+        {
+          "text": "Quero configurar saudações aqui."
+        }
+      ],
+      "description": "Solicite atributos pessoais genéricos."
+    },
+    {
+      "intent": "agendamento-solicitar",
+      "examples": [
+        {
+          "text": "gostaria de agendar uma entrega"
+        },
+        {
+          "text": "quero agendar uma data de entrega"
+        },
+        {
+          "text": "gostaria de escolher um dia para meu agendamento"
+        },
+        {
+          "text": "gostaria de agendar minha tarefa"
+        },
+        {
+          "text": "agendamento"
+        },
+        {
+          "text": "quero agendar uma visita técnica"
+        },
+        {
+          "text": "quero marcar um dia para visita tecnica"
+        }
+      ],
+      "description": "solicitar um agendamento"
+    },
+    {
+      "intent": "Telco_Deactivate_Roaming",
+      "examples": [
+        {
+          "text": "Quero que meu aparelho pare de buscar sinal quando chego em um novo país"
+        },
+        {
+          "text": "Qual a carência para desativar o roaming?"
+        },
+        {
+          "text": "Preciso de informações em como cancelar o roaming"
+        },
+        {
+          "text": "Posso cancelar meu roaming em qualquer momento?"
+        },
+        {
+          "text": "Não preciso mais do meu roaming"
+        },
+        {
+          "text": "Eu quero desligar a função de roaming."
+        },
+        {
+          "text": "Eu quero deixar de usar roaming internacional"
+        },
+        {
+          "text": "Custo cancelamento roaming"
+        },
+        {
+          "text": "Como posso parar de usar meu telefone enquanto estou viajando?"
+        },
+        {
+          "text": "Como posso desativar o roaming de dados em meu telefone?"
+        },
+        {
+          "text": "Como desativar a função roaming?"
+        },
+        {
+          "text": "Cancelar o serviço de roaming"
+        },
+        {
+          "text": "Ajuda com a desativação de roaming"
+        },
+        {
+          "text": "Quero desligar o roaming da minha conta"
+        },
+        {
+          "text": "Se eu cancelar o roaming agora, demora muito pra concluir o pedido?"
+        },
+        {
+          "text": "Sim eu quero desativar o roaming no meu número de telefone"
+        },
+        {
+          "text": "Vou viajar para o exterior, quero desativar o roaming."
+        },
+        {
+          "text": "Por favor, garanta-me que meu telefone funciona somente nos Estados Unidos."
+        }
+      ],
+      "description": "Desative o roaming internacional."
+    },
+    {
+      "intent": "carnaval",
+      "examples": [
+        {
+          "text": "vai para o carnaval"
+        },
+        {
+          "text": "curtir no carnaval"
+        },
+        {
+          "text": "pular carnaval"
+        },
+        {
+          "text": "carnaval"
+        },
+        {
+          "text": "o que vai fazer no carnaval?"
+        },
+        {
+          "text": "onde você vai no carnaval?"
+        }
+      ],
+      "description": "Assuntos sobre Carnaval"
+    },
+    {
+      "intent": "Agendamento-Reagendar",
+      "examples": [
+        {
+          "text": "remarcar"
+        },
+        {
+          "text": "posso outro dia"
+        },
+        {
+          "text": "reagendar"
+        },
+        {
+          "text": "outro dia"
+        },
+        {
+          "text": "reagendamento"
+        },
+        {
+          "text": "não posso nessa data"
+        },
+        {
+          "text": "quero reagendar"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "definicaoBot",
+      "examples": [
+        {
+          "text": "O que é bot?"
+        }
+      ],
+      "description": "O que é bot?"
+    },
+    {
+      "intent": "General_Negative_Feedback",
+      "examples": [
+        {
+          "text": "Você está fora de si?"
+        },
+        {
+          "text": "Você está me entediando."
+        },
+        {
+          "text": "Você é uma piada?"
+        },
+        {
+          "text": "Por que você é retardado?"
+        },
+        {
+          "text": "Porra, como posso falar com uma pessoa real?"
+        },
+        {
+          "text": "Seja bom uma vez na vida."
+        },
+        {
+          "text": "Sua mãe."
+        },
+        {
+          "text": "Tchau, vagabunda."
+        },
+        {
+          "text": "Todo mundo te odeia."
+        },
+        {
+          "text": "Uma experiência horrível, com certeza!"
+        },
+        {
+          "text": "Você é burro."
+        },
+        {
+          "text": "Você é espertinho?"
+        },
+        {
+          "text": "Você não vale nada."
+        },
+        {
+          "text": "Você é ruim mesmo?"
+        },
+        {
+          "text": "Vá para a puta que pariu!"
+        },
+        {
+          "text": "Vá para o inferno!"
+        },
+        {
+          "text": "Vá se foder!"
+        },
+        {
+          "text": "Você é chato?"
+        }
+      ],
+      "description": "Expresse feedback desfavorável."
+    },
+    {
+      "intent": "Telco_Add_Service_Features",
+      "examples": [
+        {
+          "text": "Você pode por favor me informar o status do meu Serviço de Valor Agregado (VAS) - novo toque de chamadas? Eu tinha pedido isso ontem, eu ainda não o vejo ativado."
+        },
+        {
+          "text": "Gostaria de adicionar o MMS ao meu pacote."
+        },
+        {
+          "text": "Eu quero ativar o identificador de chamadas."
+        },
+        {
+          "text": "Eu quero adicionar um serviço de produto à minha conta, ou seja, mais dados ao seguro eurotraveller"
+        },
+        {
+          "text": "Eu gostaria de incluir texto de mensagem para o meu plano, pode fazer isso por mim?"
+        },
+        {
+          "text": "Eu gostaria de incluir chamada esperando meu plano de serviço. Quanto custa, e quando poderia ser incluído?"
+        },
+        {
+          "text": "Onde adicionar servicos extras?"
+        },
+        {
+          "text": "Posso adicionar mensagens de texto aos meus serviços?"
+        },
+        {
+          "text": "Posso incluir mensagens de vídeo como um recurso de serviço novo no meu telefone?"
+        },
+        {
+          "text": "Ei, posso incluir chamada internacional por favor"
+        },
+        {
+          "text": "Como posso ativar o uso internacional na minha linha?"
+        },
+        {
+          "text": "Quero poder encaminhar chamadas do meu telefone, como posso adicionar esse recurso ao meu plano atual?"
+        },
+        {
+          "text": "Oi, eu estava esperando que você pudesse me dizer como adicionar o recurso de mensagens de texto ao meu plano?"
+        },
+        {
+          "text": "Oi, como posso ativar o encaminhamento de chamada no meu plano?"
+        },
+        {
+          "text": "Gostaria de falar com um representante de serviço ao cliente para saber sobre a adição de novos serviços ao meu plano."
+        },
+        {
+          "text": "Eu gostaria de incluir SMS no meu telefone em serviços. Como faço isso?"
+        },
+        {
+          "text": "Como eu adiciono uma nova categoria de intenção?"
+        },
+        {
+          "text": "Ativar o serviço de mensagem de voz"
+        },
+        {
+          "text": "Como posso ativar a minha rejeição automática da chamada?"
+        },
+        {
+          "text": "Estou recebendo chamadas indesejadas de números desconhecidos, como posso ativar Não perturbe?"
+        }
+      ],
+      "description": "Adicione novos recursos de serviço."
+    },
+    {
+      "intent": "idade",
+      "examples": [
+        {
+          "text": "Quantos anos você tem?"
+        },
+        {
+          "text": "qual a sua idade?"
+        }
+      ],
+      "description": "Questionamentos sobre a idade do BOT."
+    },
+    {
+      "intent": "Telco_Remove_Service_Features",
+      "examples": [
+        {
+          "text": "Oi Tom, eu preciso remover o recurso de chamada internacional do meu plano. Eu não preciso mais disso. Você pode me ajudar com isto?"
+        },
+        {
+          "text": "Queria excluir as ligações fora da minha região do meu plano"
+        },
+        {
+          "text": "Remover o encaminhamento de chamada"
+        },
+        {
+          "text": "Remova a caixa postal, se possível."
+        },
+        {
+          "text": "Desativar meu dispositivo quando no exterior"
+        },
+        {
+          "text": "Como faço para remover o serviço de mensagens de texto?"
+        },
+        {
+          "text": "Como poderia ter meu correio de voz e correio de voz visual permanentemente removido do meu plano?"
+        },
+        {
+          "text": "Como remover recursos do plano do telefone sem fio em casa?"
+        },
+        {
+          "text": "Eu fui cobrada uma cobrança pelo serviço de identificação de chamadas que eu solicitei especificamente para não ter. Você pode remover o serviço e reembolsar a cobrança?"
+        },
+        {
+          "text": "Eu gostaria de cancelar os correios de voz Visual no meu telefone"
+        },
+        {
+          "text": "Eu gostaria de cancelar o serviço de encaminhamento das minhas ligações. Como faço isso?"
+        },
+        {
+          "text": "Eu tenho uma melodia de chamadas no meu número e quero desativá-la"
+        },
+        {
+          "text": "Gostaria de cancelar minha cobertura de roaming e tethering."
+        },
+        {
+          "text": "Não uso o serviço de chamada em conferência associado à minha conta. Posso encerrar esse serviço e removê-lo da minha conta?"
+        },
+        {
+          "text": "Posso excluir o envio de sms?"
+        },
+        {
+          "text": "Posso remover um novo recurso no meu plano?"
+        },
+        {
+          "text": "É possível remover serviço de conferencias do meu plano?"
+        },
+        {
+          "text": "Preciso desconectar uma das minhas linhas telefônicas. Posso fazer isso por telefone?"
+        },
+        {
+          "text": "Preciso remover o MMS no meu telefone."
+        },
+        {
+          "text": "Quais servicos posso remover diretamente pelo meu aparelho?"
+        }
+      ],
+      "description": "Remova os recursos do serviço de um plano."
+    },
+    {
+      "intent": "xingamentoDesculpa",
+      "examples": [
+        {
+          "text": "Desculpa!"
+        },
+        {
+          "text": "descupa"
+        },
+        {
+          "text": "sinto muito"
+        }
+      ],
+      "description": "xingamentoDesculpa"
+    },
+    {
+      "intent": "Telco_Price_Plan_Inquiry",
+      "examples": [
+        {
+          "text": "Eu preciso obter um plano maior. Eu posso obter algumas cotações de preço"
+        },
+        {
+          "text": "Baseado no uso histórico de voz e dados dos últimos 6 meses, qual plano que você sugere para mim… que seja economicamente viável?"
+        },
+        {
+          "text": "Quero saber sobre os planos pré-pagos"
+        },
+        {
+          "text": "Você poderia me falar sobre os diferentes planos de preços disponíveis na minha localização?"
+        },
+        {
+          "text": "Você pode verificar quais novos planos de serviços estão disponíveis para minha conta?"
+        },
+        {
+          "text": "Você pode por favor fornecer-me com informações sobre os diferentes planos que estão disponíveis?"
+        },
+        {
+          "text": "Além do fornecimento de água vocês oferecem algum outro serviço?"
+        },
+        {
+          "text": "Que planos de dados posso escolher?"
+        },
+        {
+          "text": "Quantos tabletes podem ser adicionados ao meu plano de família?"
+        },
+        {
+          "text": "Quanto é o custo de um plano familiar de 3 linhas?"
+        },
+        {
+          "text": "Quanto eu tenho que pagar por mais GBs no meu plano?"
+        },
+        {
+          "text": "Qual plano de dados é o menos caro para mim?"
+        },
+        {
+          "text": "Qual é o plano de dados que estou na ativa?"
+        },
+        {
+          "text": "Qual é o mais recente plano 4G adequado para mim como um pacote família?"
+        },
+        {
+          "text": "Quais são os preços para os planos de dados e chamadas diferentes que você oferece?"
+        },
+        {
+          "text": "Quai são meus recursos atuais"
+        },
+        {
+          "text": "Por favor, me diga qual é o melhor plano de preço que melhor atende o meu histórico de uso."
+        },
+        {
+          "text": "Pode me dar os detalhes do plano de preços atual pelo qual estão me cobrando?"
+        },
+        {
+          "text": "Há alguma dívida em aberto no meu número e qual é o plano de internet que está aplicada no meu número?"
+        },
+        {
+          "text": "Eu estava querendo me inscrever em um plano com sua empresa e estava pensando quais são alguns dos planos de preços que você tem para oferecer?"
+        },
+        {
+          "text": "Eu preciso de cerca de 100 GB de dados todos os meses e acima de 20 Mbps de velocidade, você pode sugerir alguns planos de dados que possam corresponder às minhas necessidades?"
+        },
+        {
+          "text": "Como um cliente de longo prazo, você pode me dizer quais os descontos que posso receber em minhas cobranças?"
+        },
+        {
+          "text": "Bom dia, eu me pergunto que tipos de planos estão oferecendo e contendo esses planos de serviços?"
+        }
+      ],
+      "description": "Informe-se sobre o plano de preços subscrito."
+    }
+  ],
+  "entities": [
+    {
+      "entity": "dataAgendamento",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "6 sexta",
+          "synonyms": [
+            "sexta",
+            "sexta-feira",
+            "6"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "4 Quarta",
+          "synonyms": [
+            "quarta",
+            "Quarta-feira",
+            "qua"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "3 Terca",
+          "synonyms": [
+            "terca",
+            "terça",
+            "terça-feira",
+            "terca-feira"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "2 Segunda",
+          "synonyms": [
+            "Segunda",
+            "Segunda-feira",
+            "Seg"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "5 Quinta",
+          "synonyms": [
+            "quinta",
+            "quinta-feira",
+            "5º"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "contadorXingamento",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "cont-xingamento",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-time",
+      "values": []
+    },
+    {
+      "entity": "sys-date",
+      "values": []
+    },
+    {
+      "entity": "sys-percentage",
+      "values": []
+    },
+    {
+      "entity": "sys-currency",
+      "values": []
+    },
+    {
+      "entity": "sys-number",
+      "values": []
+    },
+    {
+      "entity": "produtoEscolhido",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Produto C",
+          "synonyms": [
+            "Produto C",
+            "Produto 2",
+            "Terceira opção",
+            "O terceiro",
+            "C",
+            "3"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "ProdutoB",
+          "synonyms": [
+            "Produto B",
+            "Produto 2",
+            "Segunda opção",
+            "O segundo",
+            "B",
+            "2"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "ProdutoA",
+          "synonyms": [
+            "Produto A",
+            "Produto 1",
+            "Primeiro Opção",
+            "O primeiro",
+            "1"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "agendamento_turno",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "manhã",
+          "synonyms": [
+            "manha",
+            "cedo"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "tarde",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    }
+  ],
+  "language": "pt-br",
+  "metadata": {
+    "api_version": {
+      "major_version": "v1",
+      "minor_version": "2018-09-20"
+    }
+  },
+  "description": "",
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "title": "Bolsa de Valores - Informações",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "A bolsa de valores é o mercado organizado onde se negociam ações de sociedades de capital aberto e outros valores mobiliários, tais como as opções."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_1_1551209836514",
+      "conditions": "#bolsaValores",
+      "dialog_node": "node_8_1552938574371",
+      "previous_sibling": "node_6_1552938928465"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "3,79 Real brasileiro"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1551209836514",
+      "conditions": "#CotacaoMoeda",
+      "dialog_node": "node_7_1552937533520",
+      "previous_sibling": "node_8_1552938574371"
+    },
+    {
+      "type": "standard",
+      "title": "MV vs DL",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Machine Learning é um tipo de IA que facilita a capacidade de um computador em aprender. E essencialmente ensinar-se a evoluir à medida que é exposto a novos dados e em constante mudança. Por exemplo, o feed de notícias do Facebook usa aprendizado de máquina em um esforço para personalizar o feed de cada indivíduo com base no que eles gostam.\n\nOs principais elementos do software de Machine Learning tradicional são análise estatística e análise preditiva. Elas são usadas para detectar padrões e encontrar insights escondidos com base em dados observados de cálculos anteriores sem ser programado sobre onde procurar.\n\nEmbora Machine Learning tenha se tornado parte integrante do processamento de dados. Uma das principais diferenças em relação ao Deep Learning é que exige uma intervenção manual na seleção dos recursos a serem processados, enquanto deep learning é intuitivo."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1551209836514",
+      "metadata": {},
+      "conditions": "#DiferencaEntreMLeDL",
+      "dialog_node": "node_3_1551394758755",
+      "previous_sibling": "node_2_1551394390241"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "https://www.climatempo.com.br/previsao-do-tempo/cidade/321/riodejaneiro-rj"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1551209836514",
+      "conditions": "#previsaoTempo",
+      "dialog_node": "node_6_1552938928465",
+      "previous_sibling": "node_1_1552938696677"
+    },
+    {
+      "type": "standard",
+      "title": "machineLearning",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "O aprendizado automático (em inglês: machine learning) é um subcampo da ciência da computação que evoluiu do estudo de reconhecimento de padrões e da teoria do aprendizado computacional em inteligência artificial. Em 1959, Arthur Samuel definiu aprendizado de máquina como o \"campo de estudo que dá aos computadores a habilidade de aprender sem serem explicitamente programados. O aprendizado automático explora o estudo e construção de algoritmos que podem aprender de seus erros e fazer previsões sobre dados. Tais algoritmos operam construindo um modelo a partir de inputs amostrais a fim de fazer previsões ou decisões guiadas pelos dados ao invés de simplesmente seguindo inflexíveis e estáticas instruções programadas. Enquanto que na inteligência artificial existem dois tipos de raciocínio (o indutivo, que extrai regras e padrões de grandes conjuntos de dados, e o dedutivo), o aprendizado de máquina só se preocupa com o indutivo."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1551209836514",
+      "metadata": {},
+      "conditions": "#machineLearning",
+      "dialog_node": "node_2_1551394390241",
+      "previous_sibling": "node_1_1551394236781"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "<? @sys-date.reformatDateTime('EEEE')?>, <? @sys-date.reformatDateTime('dd/MM/yyyy') ?>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1551209836514",
+      "conditions": "#diaDaSemana",
+      "dialog_node": "node_7_1552591061378",
+      "previous_sibling": "node_5_1552936519182"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "🤔... Pelos meus cálculos... sim!"
+              },
+              {
+                "text": "A inteligência artificial (IA) está mais próxima do cotidiano do que podemos imaginar. Basta pensar em uma vida sem buscadores como o Google, que usa IA para fornecer os resultados com mais velocidade. Até mesmo pensar em como seria difícil se locomover pela cidade sem a ajuda do GPS para calcular a melhor rota entre dois pontos. Ou, ainda, sem utilizar os assistentes virtuais, como Google Assistente, Siri, Cortana e outros."
+              },
+              {
+                "text": "Você deixaria um robô cuidar do seu filho? A resposta de várias pessoas da geração Y é \"sim\"!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1551209836514",
+      "conditions": "#maquinasSubstituiraoHumanos",
+      "dialog_node": "node_5_1552936519182",
+      "previous_sibling": "node_8_1552936018471"
+    },
+    {
+      "type": "standard",
+      "title": "IA vs Homem",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Se a tecnologia eliminar trabalhos ou trouxer mais insegurança profissional, cada vez mais pessoas não conseguirão cuidar de suas despesas básicas!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1551209836514",
+      "metadata": {},
+      "conditions": "#inteligencia-artificial-vai-acabar-com-empregos",
+      "dialog_node": "node_4_1551395041607",
+      "previous_sibling": "node_3_1551394758755"
+    },
+    {
+      "type": "standard",
+      "title": "DEEPLEARNING",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "A aprendizagem profunda, do inglês Deep Learning (também conhecida como aprendizado estruturado profundo, aprendizado hierárquico ou aprendizado de máquina profundo) é um ramo de aprendizado de máquina (Machine Learning) baseado em um conjunto de algoritmos que tentam modelar abstrações de alto nível de dados usando um grafo profundo com várias camadas de processamento, compostas de várias transformações lineares e não lineares."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1551209836514",
+      "metadata": {},
+      "conditions": "#DEEPLEARNING",
+      "dialog_node": "node_1_1551394236781",
+      "previous_sibling": "node_5_1551202739012"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Bot, diminutivo de robot, também conhecido como Internet bot ou web robot, é uma aplicação de software concebido para simular ações humanas repetidas vezes de maneira padrão, da mesma forma como faria um robô."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1551209836514",
+      "conditions": "#definicaoBot",
+      "dialog_node": "node_1_1552938696677",
+      "previous_sibling": "node_7_1552591061378"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Chatbot é um programa de computador que tenta simular um ser humano na conversação com as pessoas. O objetivo é responder as perguntas de tal forma que as pessoas tenham a impressão de estar conversando com outra pessoa e não com um programa de computador."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1551209836514",
+      "conditions": "#chatbot",
+      "dialog_node": "node_8_1552936018471",
+      "previous_sibling": "node_4_1551395041607"
+    },
+    {
+      "type": "standard",
+      "title": "Quem sou eu (IA)",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Sou a assistente virtual da Accenture. Um programa de inteligência artificial e estou aqui para lhe ajudar da melhor maneira possível."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1551209836514",
+      "metadata": {},
+      "conditions": "#General_Human_or_Bot || #Humano-Robo",
+      "dialog_node": "node_5_1551202739012",
+      "previous_sibling": "node_1_1551202228150"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Não posso ajudar com esse tipo de solicitação"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1551209836514",
+      "metadata": {},
+      "conditions": "#Suruba",
+      "dialog_node": "node_2_1551210339837",
+      "previous_sibling": "node_7_1552937533520"
+    },
+    {
+      "type": "standard",
+      "title": "Inteligência artificial",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Inteligência Artificial (IA) é um ramo da ciência da computação que se propõe a elaborar dispositivos que simulem a capacidade humana de raciocinar, perceber, tomar decisões e resolver problemas, enfim, a capacidade de ser inteligente. Você gostaria de saber mais?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1551209836514",
+      "metadata": {},
+      "conditions": "#inteligencia-artificial",
+      "dialog_node": "node_1_1551202228150"
+    },
+    {
+      "type": "standard",
+      "title": "Explicação IA",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "A Inteligência Artificial não apenas soluciona problemas de maneira racional, mas a grande diferença é que estes sistemas conseguem aprender e se autodesenvolver. Em outras palavras, a IA cria novas deduções a partir da junção de várias informações fragmentadas, assim como acontece dentro do sistema neurológico dos seres humanos. E ai gostou de aprender mais? ;)"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1551202552038",
+      "metadata": {},
+      "conditions": "#Intencao-Positiva",
+      "dialog_node": "node_4_1551207962387"
+    },
+    {
+      "type": "standard",
+      "parent": "node_1_1554418135366",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_2_1554417436334"
+      },
+      "conditions": "#Intencao-Positiva",
+      "dialog_node": "node_2_1554418172382",
+      "previous_sibling": "node_3_1554418220368"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Agendamento Cancelado"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1554418135366",
+      "conditions": "#Intencao-Negativa",
+      "dialog_node": "node_3_1554418220368"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Reagendamento Realizado para: {{slot}}"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_17_1538772959150",
+      "metadata": {},
+      "conditions": "#Intencao-Positiva",
+      "dialog_node": "node_18_1538773374321"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Que bom que ajudei!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1552938574371",
+      "conditions": "#Intencao-Positiva",
+      "dialog_node": "node_4_1553291995810",
+      "previous_sibling": "node_5_1553292530355"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Vou pesquisar mais, neste momento só tenho essa informação."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1552938574371",
+      "conditions": "#Intencao-Negativa",
+      "dialog_node": "node_2_1553291589627",
+      "previous_sibling": "node_4_1553291995810"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Oi Abreu! \n⚽ no 🌍!\nO que você espera que o bot responda nessa situação? Escreve aqui que vou treina-lo para responder."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1552938574371",
+      "context": {},
+      "conditions": "#Intencao-Interjeicao",
+      "dialog_node": "node_5_1553292530355"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ok! Vamos manter seu agendamento!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1538775979362",
+      "metadata": {},
+      "conditions": "#Intencao-Negativa",
+      "dialog_node": "node_2_1538776196332"
+    },
+    {
+      "type": "standard",
+      "title": "OutrosAssuntos-Falarcomatendente",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Tudo bem! Você pode contatar um dos nossos atendentes ligando no número XXX-XX para capitais ou XXXX XXXXXX para as demais localidades :)"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1551209965918",
+      "metadata": {},
+      "conditions": "#General_Agent_Capabilities || #General_Connect_to_Agent",
+      "dialog_node": "node_1_1539887145216",
+      "previous_sibling": "node_2_1536607080588"
+    },
+    {
+      "type": "standard",
+      "title": "OutrosAssuntos-Agradecimento",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Por nada! Qualquer coisa, estou aqui para ajudá-lo :)"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1551209965918",
+      "metadata": {},
+      "conditions": "#Agradecimento",
+      "dialog_node": "node_1_1540845745316",
+      "previous_sibling": "node_1_1539887145216"
+    },
+    {
+      "type": "standard",
+      "title": "OutrosAssuntos-HumanoRobo",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Sou um robô treinando para ajudar você! Tenho certeza que vamos encontrar uma solução."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_1_1551209965918",
+      "metadata": {},
+      "conditions": "#Humano-Robo",
+      "dialog_node": "node_2_1536607080588",
+      "previous_sibling": "node_3_1538666992485"
+    },
+    {
+      "type": "standard",
+      "title": "OutrosAssuntos-Saudacao",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Olá! Como posso ajudá-lo?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1551209965918",
+      "metadata": {},
+      "conditions": "#Saudacao",
+      "dialog_node": "node_2_1540846189163",
+      "previous_sibling": "node_1_1540845745316"
+    },
+    {
+      "type": "standard",
+      "title": "OutrosAssuntos-Telecom",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ainda não estou preparado para falar sobre esse assunto."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1551209965918",
+      "metadata": {},
+      "conditions": "#Telco_Activate_Device || #Telco_Activate_Prepaid_Plan || #Telco_Activate_Roaming || #Telco_Add_Insurance || #Telco_Add_Service_Features || #Telco_Change_Price_Plan || #Telco_Coverage_Area_Inquiry || #Telco_Deactivate_Prepaid_Plan || #Telco_Deactivate_Roaming || #Telco_Device_Upgrade_Eligibility || #Telco_International_Rate_Plan_Inquiry || #Telco_Network_Complaints || #Telco_Network_Unlock || #Telco_Port_In || #Telco_Price_Plan_Inquiry || #Telco_Recharge_SIM || #Telco_Remove_Service_Features || #Telco_Return_Device || #Telco_Roaming_Inquiry || #Telco_Swap_Device || #Telco_Troubleshooting || #Telco_Outros",
+      "dialog_node": "node_3_1538666992485"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Agendamento marcado com sucesso!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1554417436334",
+      "conditions": "#Intencao-Positiva",
+      "dialog_node": "node_8_1554418081041",
+      "previous_sibling": "node_1_1554418135366"
+    },
+    {
+      "type": "slot",
+      "parent": "node_2_1554417436334",
+      "variable": "$dataAgendamento",
+      "dialog_node": "slot_1_1554417461781",
+      "previous_sibling": "node_8_1554418081041"
+    },
+    {
+      "type": "standard",
+      "title": "Gostaria de remarcar?",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Gostaria de remarcar?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1554417436334",
+      "conditions": "#Intencao-Negativa",
+      "dialog_node": "node_1_1554418135366"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Reagendamento Realizado para: {{slot}}"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1553714978216",
+      "metadata": {},
+      "conditions": "#Intencao-Positiva",
+      "dialog_node": "node_10_1553714978216"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_12_1553714978216",
+      "event_name": "focus",
+      "dialog_node": "handler_14_1553714978216",
+      "previous_sibling": "handler_13_1553714978216"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_12_1553714978216",
+      "context": {
+        "reagendamentoSlot": "@reagendamentoSlot"
+      },
+      "metadata": {},
+      "conditions": "@reagendamentoSlot",
+      "event_name": "input",
+      "dialog_node": "handler_13_1553714978216"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_10_1538771430194",
+      "event_name": "focus",
+      "dialog_node": "handler_12_1538771430194",
+      "previous_sibling": "handler_11_1538771430194"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_10_1538771430194",
+      "context": {
+        "reagendamentoSlot": "@reagendamentoSlot"
+      },
+      "metadata": {},
+      "conditions": "@reagendamentoSlot",
+      "event_name": "input",
+      "dialog_node": "handler_11_1538771430194"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "não tenho outras datas. Quer cancelar a visita?"
+              },
+              {
+                "text": "Ops, não achei outras datas. Quer cancelar ou manter sua visita?"
+              },
+              {
+                "text": "Ops, não achei outras data =/ quer cancelar?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1553714978216",
+      "metadata": {},
+      "conditions": "#Intencao-Questionar",
+      "dialog_node": "node_5_1553714978216",
+      "previous_sibling": "node_4_1553714978216"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_2_1553714978216",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_7_1553714978216"
+      },
+      "conditions": "#Intencao-Positiva || #Intencao-Questionar",
+      "dialog_node": "node_4_1553714978216",
+      "previous_sibling": "node_3_1553714978216"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "OK! Vamos mantar a data da sua visita!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1553714978216",
+      "metadata": {},
+      "conditions": "#Intencao-Negativa",
+      "dialog_node": "node_3_1553714978216"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_4_1538597479691",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_1_1538775979362"
+      },
+      "conditions": "#Intencao-Negativa",
+      "dialog_node": "node_2_1538776089381",
+      "previous_sibling": "node_17_1538772959150"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_4_1538597479691",
+      "metadata": {},
+      "variable": "$reagendamentoSlot",
+      "dialog_node": "slot_10_1538771430194",
+      "previous_sibling": "node_2_1538776089381"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Confirma o reagendamento para opçãp {{slot}}"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1538597479691",
+      "metadata": {},
+      "conditions": "@reagendamentoSlot != null",
+      "dialog_node": "node_17_1538772959150"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1553714978216",
+      "metadata": {},
+      "conditions": "#Intencao-Negativa",
+      "dialog_node": "node_6_1553714978216"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Informe um dia de segunda a sexta"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_1_1554417461781",
+      "event_name": "focus",
+      "dialog_node": "handler_9_1554417461782",
+      "previous_sibling": "handler_1_1554417461782"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_1_1554417461781",
+      "context": {
+        "dataAgendamento": "@dataAgendamento"
+      },
+      "conditions": "@dataAgendamento",
+      "event_name": "input",
+      "dialog_node": "handler_1_1554417461782"
+    },
+    {
+      "type": "standard",
+      "title": "Agendamento-Cancelar",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Deseja cancelar seu agendamento?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1551209635875",
+      "metadata": {},
+      "conditions": "#Agendamento-Cancelar",
+      "dialog_node": "node_1_1538775979362",
+      "previous_sibling": "node_3_1538597209484"
+    },
+    {
+      "type": "standard",
+      "title": "Agendamento-Reagendar",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ok! Vou verificar as melhores datas para você!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1551209635875",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_4_1538597479691"
+      },
+      "conditions": "#Agendamento-Reagendar",
+      "dialog_node": "node_3_1538597209484",
+      "previous_sibling": "node_1_1538421789489"
+    },
+    {
+      "type": "standard",
+      "title": "Agendamento-Consulta",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Você possui uma visita técnica de {{ServiceTypeDescription}} agendada para o dia {{AppointmentStart}}, Gostaria de Reagendar ?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1551209635875",
+      "metadata": {},
+      "conditions": "#Agendamento-Consulta",
+      "dialog_node": "node_1_1538421789489"
+    },
+    {
+      "type": "frame",
+      "title": "Reagendamento-BuscarData",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "{{GetAvailableSchedule}}"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1538597209484",
+      "metadata": {
+        "fallback": "leave"
+      },
+      "dialog_node": "node_4_1538597479691",
+      "digress_out": "allow_all",
+      "digress_out_slots": "not_allowed"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1538777024364",
+      "metadata": {},
+      "conditions": "#Intencao-Negativa",
+      "dialog_node": "node_5_1538777129957"
+    },
+    {
+      "type": "standard",
+      "title": "Elogio",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Obrigado!"
+              },
+              {
+                "text": "Bom saber!"
+              },
+              {
+                "text": "Que bom que gostou!"
+              },
+              {
+                "text": "Sempre às ordens"
+              },
+              {
+                "text": "Ao seu dispor"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1553189732300",
+      "conditions": "#General_Positive_Feedback",
+      "dialog_node": "node_8_1553189796436",
+      "previous_sibling": "node_9_1553189831828"
+    },
+    {
+      "type": "standard",
+      "title": "Interjeição",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Algum problema?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1553189732300",
+      "dialog_node": "node_2_1553190297115",
+      "previous_sibling": "node_4_1553200542524"
+    },
+    {
+      "type": "standard",
+      "title": "Critica",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Desculpe por qualquer inconveniência =("
+              },
+              {
+                "text": "Se algo deu errado, você pode enviar comentários"
+              },
+              {
+                "text": "Poxa que pena. Vou tentar fazer melhor da próxima vez"
+              },
+              {
+                "text": "Sinto muito, estou sempre tentando melhorar"
+              },
+              {
+                "text": "Ah, não 😳"
+              },
+              {
+                "text": "Ainda estou aprendendo, em que posso ajudar?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1553189732300",
+      "conditions": "#General_Negative_Feedback",
+      "dialog_node": "node_9_1553189831828",
+      "previous_sibling": "node_2_1553190297115"
+    },
+    {
+      "type": "standard",
+      "title": "Qestionar",
+      "parent": "node_2_1553189732300",
+      "conditions": "#Intencao-Questionar",
+      "dialog_node": "node_4_1553200542524"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "O sexo grupal ou \"sexo com múltiplos indivíduos\" (SMI) é um comportamento em que mais de duas pessoas praticam atos sexuais juntas, podendo envolver a cópula vaginal entre um homem e uma mulher e/ou atos libidinosos diversos. Assim descrito, o sexo em grupo envolve várias subcategorias como o ménage, o swing[1] e a orgia (também chamada no Brasil de suruba)"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1551210374343",
+      "metadata": {},
+      "conditions": "#Suruba",
+      "dialog_node": "node_4_1551210398591"
+    },
+    {
+      "type": "standard",
+      "title": "Agendamento-Agendar",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ok! Vou verificar as melhores datas para você!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1553714978214",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1553714978216"
+      },
+      "conditions": "#Agendamento-Reagendar",
+      "dialog_node": "node_7_1553714978216",
+      "previous_sibling": "node_2_1553714978216"
+    },
+    {
+      "type": "standard",
+      "title": "Agendamento-Cancelar",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Deseja cancelar seu agendamento?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1553714978214",
+      "metadata": {},
+      "conditions": "#Agendamento-Cancelar",
+      "dialog_node": "node_15_1553714978216",
+      "previous_sibling": "node_7_1553714978216"
+    },
+    {
+      "type": "standard",
+      "title": "Agendamento-Consulta",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Você possui uma visita técnica de {{ServiceTypeDescription}} agendada para o dia {{AppointmentStart}}, Gostaria de Reagendar ?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1553714978214",
+      "metadata": {},
+      "conditions": "#Agendamento-Consulta",
+      "dialog_node": "node_2_1553714978216"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ok! Vamos manter seu agendamento!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_15_1553714978216",
+      "metadata": {},
+      "conditions": "#Intencao-Negativa",
+      "dialog_node": "node_16_1553714978216"
+    },
+    {
+      "type": "standard",
+      "title": "Sobre Carnaval",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Carnaval é bom demais!"
+              },
+              {
+                "text": "Eu vou pra Salvador esse ano! Lá é show!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          },
+          {
+            "title": "",
+            "options": [],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_2_1551391813552",
+      "metadata": {},
+      "conditions": "#carnaval",
+      "dialog_node": "node_5_1551391921665",
+      "previous_sibling": "node_1_1551390870191"
+    },
+    {
+      "type": "standard",
+      "title": "Questões sobre a idade do BOT",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Eu não nasci ontem! Mas ainda tenho muito que aprender."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1551391813552",
+      "metadata": {},
+      "conditions": "#idade",
+      "dialog_node": "node_1_1551390870191"
+    },
+    {
+      "type": "frame",
+      "title": "Reagendamento-BuscarData",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "{{GetAvailableSchedule}}"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1553714978216",
+      "metadata": {
+        "fallback": "leave"
+      },
+      "dialog_node": "node_8_1553714978216"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ok! espero ter ajudado!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1551202228150",
+      "metadata": {},
+      "conditions": "#Intencao-Negativa",
+      "dialog_node": "node_3_1551202620026",
+      "previous_sibling": "node_2_1551202552038"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "OK! Vou te explicar mais!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1551202228150",
+      "metadata": {},
+      "next_step": {
+        "behavior": "skip_user_input"
+      },
+      "conditions": "#Intencao-Positiva",
+      "dialog_node": "node_2_1551202552038"
+    },
+    {
+      "type": "standard",
+      "title": "Xingamento",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "por favor.... não fala assim...."
+              },
+              {
+                "text": "Se continuar assim não vou mais falar com você!"
+              },
+              {
+                "text": "Desculpe. Caso queira reportar algo, você pode enviar comentários"
+              },
+              {
+                "text": "Puxa! Se quiser reportar algum erro envie uma mensagem."
+              },
+              {
+                "text": "As vezes me embaralho um pouco, mas sempre faço o possível para encontrar informações para você :)"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_5_1553199081904",
+      "context": {
+        "contadorXingamento": "<? $contadorXingamento ? $contadorXingamento+1:1 ?>"
+      },
+      "metadata": {},
+      "conditions": "#xingamentos",
+      "dialog_node": "node_2_1551204878076",
+      "previous_sibling": "node_3_1551205029276"
+    },
+    {
+      "type": "standard",
+      "title": "Perdao sem motivo",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Você tem se comportado bem!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1553199081904",
+      "context": {},
+      "conditions": "#xingamentoDesculpa && $contadorXingamento==0",
+      "dialog_node": "node_1_1553199915593",
+      "previous_sibling": "node_8_1552941546558"
+    },
+    {
+      "type": "standard",
+      "title": "XingouD+",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Não quero conversar com você! Vai pedir desculpa?"
+              },
+              {
+                "text": "Só vou falar com você depois que pedir desculpa!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1553199081904",
+      "metadata": {},
+      "conditions": "$contadorXingamento>2",
+      "dialog_node": "node_3_1551205029276",
+      "previous_sibling": "node_1_1553199915593"
+    },
+    {
+      "type": "standard",
+      "title": "Perdao",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Eu te perdoo!"
+              },
+              {
+                "text": "Se quiser encontrar sua felicidade na Terra, deve começar a esquecer as ofensas."
+              },
+              {
+                "text": "Está desculpado!"
+              },
+              {
+                "text": "Sou maduro o bastante para perdoar!"
+              },
+              {
+                "text": "Não venha me pedir desculpas se estiver com intenção de errar novamente. Perdoar demais, cansa."
+              },
+              {
+                "text": "Às vezes basta um olhar para demonstrar arrependimento e um sorriso para revelar o perdão. 😁"
+              },
+              {
+                "text": "Antes de pedir perdão certifique-se que está disposto a fazer um esforço para não repetir o erro."
+              },
+              {
+                "text": "A vida é muito curta para permanecer magoado com alguém o resto da vida."
+              },
+              {
+                "text": "O arrependimento só faz sentido se vier acompanhado de uma mudança de atitude."
+              },
+              {
+                "text": "Todo mundo erra, mas apenas os humildes demonstram sincero arrependimento!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1553199081904",
+      "context": {
+        "contadorXingamento": 0
+      },
+      "conditions": "#xingamentoDesculpa && $contadorXingamento>0",
+      "dialog_node": "node_8_1552941546558"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "É sério não posso ajudar!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1551210339837",
+      "metadata": {},
+      "conditions": "#Suruba",
+      "dialog_node": "node_3_1551210374343"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "não tenho outras datas. Quer cancelar a visita?"
+              },
+              {
+                "text": "Ops, não achei outras datas. Quer cancelar ou manter sua visita?"
+              },
+              {
+                "text": "Ops, não achei outras data =/ quer cancelar?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1538421789489",
+      "metadata": {},
+      "conditions": "#Intencao-Questionar",
+      "dialog_node": "node_3_1538777024364",
+      "previous_sibling": "node_1_1538774181991"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_1_1538421789489",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_3_1538597209484"
+      },
+      "conditions": "#Intencao-Positiva || #Intencao-Questionar",
+      "dialog_node": "node_1_1538774181991",
+      "previous_sibling": "node_3_1538774076777"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "OK! Vamos mantar a data da sua visita!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1538421789489",
+      "metadata": {},
+      "conditions": "#Intencao-Negativa",
+      "dialog_node": "node_3_1538774076777"
+    },
+    {
+      "type": "frame",
+      "title": "Escolha de Datas",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Agendamento marcado para: <? $dataAgendamento ?>, Deseja confirmar?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1553719833378",
+      "conditions": "",
+      "dialog_node": "node_2_1554417436334"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_8_1553714978216",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_15_1553714978216"
+      },
+      "conditions": "#Intencao-Negativa",
+      "dialog_node": "node_11_1553714978216",
+      "previous_sibling": "node_9_1553714978216"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Confirma o reagendamento para opçãp {{slot}}"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1553714978216",
+      "metadata": {},
+      "conditions": "@reagendamentoSlot != null",
+      "dialog_node": "node_9_1553714978216",
+      "previous_sibling": "slot_12_1553714978216"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_8_1553714978216",
+      "metadata": {},
+      "variable": "$reagendamentoSlot",
+      "dialog_node": "slot_12_1553714978216"
+    },
+    {
+      "type": "folder",
+      "title": "Treinamento (Geraldo)",
+      "metadata": {},
+      "conditions": "#carnaval || #idade",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_2_1551391813552",
+      "previous_sibling": "node_1_1551209836514"
+    },
+    {
+      "type": "folder",
+      "title": "Reagendamento",
+      "metadata": {},
+      "conditions": "$reagendamentoSlot==9999",
+      "dialog_node": "node_1_1551209635875",
+      "previous_sibling": "node_1_1551209965918"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Por favor, escolha o dia da semana que deseja receber a visita técnica."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_2_1554417436334"
+      },
+      "conditions": "#agendamento-solicitar",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_1_1553719833378",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_1_1551209635875"
+    },
+    {
+      "type": "folder",
+      "title": "Conversa Livre ( Abreu )",
+      "metadata": {},
+      "conditions": "",
+      "dialog_node": "node_1_1551209836514",
+      "previous_sibling": "node_2_1553189732300"
+    },
+    {
+      "type": "folder",
+      "title": "Interjeições Humanas irrelevantes",
+      "conditions": "",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_2_1553189732300",
+      "previous_sibling": "node_5_1553199067695"
+    },
+    {
+      "type": "standard",
+      "title": "Em outros casos",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Eu não entendi. Você pode tentar reformular a frase?"
+              },
+              {
+                "text": "Você pode reformular sua afirmação? Eu não estou entendendo."
+              },
+              {
+                "text": "Eu não entendi o sentido."
+              },
+              {
+                "text": "Desculpe, não entendi o que você quer dizer. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "anything_else",
+      "dialog_node": "Em outros casos",
+      "previous_sibling": "node_1_1553714978214"
+    },
+    {
+      "type": "folder",
+      "title": "Outros Assuntos",
+      "metadata": {},
+      "conditions": "$reagendamentoSlot==9999",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_1_1551209965918",
+      "previous_sibling": "node_2_1551391813552"
+    },
+    {
+      "type": "standard",
+      "title": "Bem vindo",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Oi! Sou a assistente virtual da Accenture. Um programa de inteligência artificial e estou aqui para lhe ajudar da melhor maneira possível."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "welcome",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_5_1553199067695",
+      "previous_sibling": "node_5_1553199081904"
+    },
+    {
+      "type": "folder",
+      "title": "Agendamento",
+      "metadata": {},
+      "conditions": "$reagendamentoSlot==9999",
+      "dialog_node": "node_1_1553714978214",
+      "previous_sibling": "node_1_1553719833378"
+    },
+    {
+      "type": "folder",
+      "title": "XingamentoFluxo",
+      "dialog_node": "node_5_1553199081904"
+    }
+  ],
+  "workspace_id": "d1da3c26-d442-4cdd-b97c-f493209f5e6d",
+  "counterexamples": [
+    {
+      "text": "caguei"
+    }
+  ],
+  "system_settings": {
+    "tooling": {
+      "store_generic_responses": true
+    },
+    "disambiguation": {
+      "prompt": "Você quis dizer:",
+      "none_of_the_above_prompt": "Nenhuma das anteriores"
+    },
+    "human_agent_assist": {
+      "prompt": "Você quis dizer:"
+    }
+  },
+  "learning_opt_out": false,
+  "status": "Available"
+}
